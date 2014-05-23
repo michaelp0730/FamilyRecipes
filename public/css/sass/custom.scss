@@ -1,0 +1,180 @@
+/* User-defined custom styles */
+@mixin label {
+  display: inline-block;
+  min-width: 120px;
+  color: #fff;
+  border-radius: $radius-x-small;
+  text-align: center;
+  letter-spacing: $smallest;
+  padding: 5px 0;
+}
+.home { background-color: $home; }
+.breakfast { background-color: $breakfast; }
+.salad { background-color: $salad; }
+.soup { background-color: $soup; }
+.entree { background-color: $entree; }
+.side { background-color: $side; }
+.dessert { background-color: $dessert; }
+.headline-light{ color: $home; }
+.lt-grey { background-color: $lt-grey; }
+.label { @include label; }
+.small-label {
+  display: inline-block;
+  font-size: 0.75em;
+  text-align: center;
+  letter-spacing: $smallest;
+  color: #fff;
+  border-radius: $radius-x-small;
+  margin-top: -27px;
+  padding: 5px 10px;
+  float: left;
+}
+  .small-label:first-letter { text-transform: uppercase; }
+
+a:link, a:visited {
+  color: $entree;
+  text-decoration: none; }
+
+a:active, a:hover {
+  color: $entree;
+  text-decoration: underline; }
+
+h1 {
+  font-family: 'Cinzel Decorative', 'Open Sans', sans-serif;
+  color: $headline;
+  font-size: 3.75em;
+  font-weight: 300;
+  margin: 0.5em 0; }
+
+h2 {
+  @include label;
+  font-size: 1.25em;
+  font-weight: 600;
+  margin-top: 0.5em; }
+
+h3 {
+  font-size: 1.5em;
+  color: $home;
+  margin: 0 0 10px; }
+
+h4, h5, h6 { color: $headline; }
+
+nav ul li {
+  @include label;
+  margin: 0 1.25em 0.75em 0;
+  cursor: pointer; }
+
+.main-header {
+  border-bottom: 3px solid $side;
+  margin-top: 1em; }
+
+.search {
+  width: 300px;
+  float: right;
+  border-radius: $radius-x-small; }
+
+.container {
+  padding: 2em 0; }
+
+.recipe-list-container ul {
+  margin-left: 70px;
+  li {
+    float: left;
+    width: 300px;
+    color: $entree;
+    cursor: pointer;
+    margin: 0.75em 1.5em 1.5em 0;
+    line-height: 1.25em;
+    list-style: square; }
+  li:hover { text-decoration: underline; }
+}
+
+footer {
+  background-color: #fff;
+  font-size: 0.75em;
+  text-align: center;
+  padding: 7px 0;
+  font-weight: 300;
+  border-top: 1px solid $entree; }
+
+.about-this-dish {
+  background-color: $lt-grey;
+  border-bottom: 3px solid $side;
+  min-height: 320px;
+  nav ul li {
+    width: 120px;
+    display: block;
+    margin-left: -60px;
+    margin-right: 48px; }
+  img {
+    float: right;
+    margin: 0 0 1em 2em; }
+}
+
+.ingredients-list {
+  margin: 0 0 2em 0;
+  li {
+    margin: 0.75em 0 0.75em 1.25em;
+    list-style: square;
+  }
+}
+
+@media only screen and (max-width: 48em) {
+  h1 {
+    font-size: 2.5em;
+    padding: 0.75em 0 0.25em; }
+  h2 {
+    font-size: 1.125em; }
+  h3 {
+    font-size: 1.25em; }
+
+  #search-results h3 {
+    padding-left: 8px; }
+
+  .main-header {
+    padding: 0.5em 0.5em 0; 
+  }
+  .search {
+    margin-top: 0.5em;
+    float: left; }
+
+  #breakfast-container, #salads-container,
+  #soups-container, #entrees-container,
+  #sides-container, #desserts-container {
+    padding: 0 0.5em;
+  }
+
+  .small-10 {
+    width: 97%; }
+
+  .small-9 {
+    width: 95%;
+    margin-left: 0.5em; }
+
+  .about-this-dish {
+    min-height: 320px;
+    nav {
+      width: 140px; }
+    nav ul li {
+      width: 120px;
+      display: block;
+      margin-left: 0.5em; }
+    img {
+      -webkit-transform: scale(0.75);
+      -moz-transform: scale(0.75);
+      -o-transform: scale(0.75);
+      -ms-transform: scale(0.75);
+      transform: scale(0.75);
+      margin: -20px -30px 0 0;
+    }
+    p {
+      padding: 0 0.5em; }
+  }
+
+  .pp-page-link {
+    display: block;
+    padding-bottom: 1em; }
+
+  .recipe-list-container ul li {
+    width: 100%; }
+}
