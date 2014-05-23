@@ -105,35 +105,3 @@ function showDesserts() {
             el: '#desserts-container'
         });
 }
-
-
-
-
-
-
-
-
-/*
-Garth's code
-;(function($) {
-    $.namespace('App.controllers');
-    var app = app || {};
-    var breakfastRecipes = new app.Breakfasts();
-    var breakfastView = new app.BreakfastHomeView({
-        model: breakfastRecipes,
-        el: '#breakfast-list-home'
-    });
-
-    App.controllers.Main = function() {
-        breakfastRecipes.fetch({
-            success: function() {
-                // Hide Loader
-                breakfastView.render();
-            }
-        });
-    };
-
-    // Handle route
-    router.route('*', App.controllers.Main);
-}(jQuery));
-*/
