@@ -31,7 +31,7 @@
     </header>
 
     <section id="main-content"></section>
-    
+
     <footer id="main-footer">
         Copyright &copy; <span id="copyright-date"></span> The Pellegrini Family | All Rights Reserved
     </footer>
@@ -48,7 +48,7 @@
             <li class="side">Sides</li>
             <li class="dessert">Desserts</li>
         </ul>
-    </nav>  
+    </nav>
 </script>
 
 <script type="text/template" id="recipe-header-template">
@@ -61,80 +61,25 @@
         <div id="search-results"></div>
 
         <div id="breakfast-container" class="clearfix"></div>
-        
+
         <div id="salads-container" class="clearfix"></div>
-        
+
         <div id="soups-container" class="clearfix"></div>
-        
+
         <div id="entrees-container" class="clearfix"></div>
-        
+
         <div id="sides-container" class="clearfix"></div>
-        
+
         <div id="desserts-container" class="clearfix"></div>
     </div>
 </script>
 
-<script type="text/template" id="show-breakfasts-template">
-    <h2 class="breakfast">Breakfast</h2>
-    <div id="breakfast-list-home" class="recipe-list-container">
+<script type="text/template" id="home-meal-type-template">
+    <h2 class="<%= type %>"><%= title %></h2>
+    <div id="<%= id %>" class="recipe-list-container">
         <ul>
             <% _.each(collection.models, function(item) { %>
-                <li id="<%= item.get('id') %>"><%= item.get('title') %></li> 
-            <% }); %>
-        </ul>
-    </div>   
-</script>
-
-<script type="text/template" id="show-salads-template">
-    <h2 class="salad">Salads</h2>
-    <div id="salads-list-home" class="recipe-list-container">
-        <ul>
-            <% _.each(collection.models, function(item) { %>
-                <li id="<%= item.get('id') %>"><%= item.get('title') %></li> 
-            <% }); %>
-        </ul>
-    </div>
-</script>
-
-<script type="text/template" id="show-soups-template">
-    <h2 class="soup">Soups</h2>
-    <div id="soups-list-home" class="recipe-list-container">
-        <ul>
-            <% _.each(collection.models, function(item) { %>
-                <li id="<%= item.get('id') %>"><%= item.get('title') %></li> 
-            <% }); %>
-        </ul>
-    </div>
-</script>
-
-<script type="text/template" id="show-entrees-template">
-    <h2 class="entree">Entrees</h2>
-    <div id="entrees-list-home" class="recipe-list-container">
-        <ul>
-            <% _.each(collection.models, function(item) { %>
-                <li id="<%= item.get('id') %>"><%= item.get('title') %></li> 
-            <% }); %>
-        </ul>
-    </div>
-</script>
-
-<script type="text/template" id="show-sides-template">
-    <h2 class="side">Sides</h2>
-    <div id="sides-list-home" class="recipe-list-container">
-        <ul>
-            <% _.each(collection.models, function(item) { %>
-                <li id="<%= item.get('id') %>"><%= item.get('title') %></li> 
-            <% }); %>
-        </ul>
-    </div>
-</script>
-
-<script type="text/template" id="show-desserts-template">
-    <h2 class="dessert">Desserts</h2>
-    <div id="desserts-list-home" class="recipe-list-container">
-        <ul>
-            <% _.each(collection.models, function(item) { %>
-                <li id="<%= item.get('id') %>"><%= item.get('title') %></li> 
+                <li id="<%= item.get('id') %>"><%= item.get('title') %></li>
             <% }); %>
         </ul>
     </div>
@@ -165,8 +110,8 @@
             <h3>Ingredients:</h3>
             <ul class="ingredients-list">
                 <% _.each(ingredients, function(item) { %>
-                    <li><%= item %></li> 
-                <% }); %> 
+                    <li><%= item %></li>
+                <% }); %>
             </ul>
             <h3>Instructions:</h3>
             <p><%= instructions %></p>

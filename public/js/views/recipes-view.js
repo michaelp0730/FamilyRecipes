@@ -52,7 +52,7 @@ app.HomeRecipesView = Backbone.View.extend({
 });
 
 app.ShowBreakfastsView = Backbone.View.extend({
-    template: _.template( $('#show-breakfasts-template').html() ),
+    template: _.template( $('#home-meal-type-template').html() ),
     initialize: function() {
         this.$el = $(this.el);
         this.listen();
@@ -60,7 +60,10 @@ app.ShowBreakfastsView = Backbone.View.extend({
     },
     render: function() {
         this.$el.html( this.template( {
-            collection: this.collection
+            collection: this.collection,
+            type: 'breakfast',
+            title: 'Breakfast',
+            id: 'breakfast-list-home'
         } ));
     },
     listen: function() {
@@ -83,7 +86,7 @@ app.ShowBreakfastsView = Backbone.View.extend({
 });
 
 app.ShowSaladsView = Backbone.View.extend({
-    template: _.template( $('#show-salads-template').html() ),
+    template: _.template( $('#home-meal-type-template').html() ),
     initialize: function() {
         this.$el = $(this.el);
         this.listen();
@@ -91,7 +94,10 @@ app.ShowSaladsView = Backbone.View.extend({
     },
     render: function() {
         this.$el.html( this.template( {
-            collection: this.collection
+            collection: this.collection,
+            type: 'salad',
+            title: 'Salads',
+            id: 'salads-list-home'
         } ));
     },
     listen: function() {
@@ -114,7 +120,7 @@ app.ShowSaladsView = Backbone.View.extend({
 });
 
 app.ShowSoupsView = Backbone.View.extend({
-    template: _.template( $('#show-soups-template').html() ),
+    template: _.template( $('#home-meal-type-template').html() ),
     initialize: function() {
         this.$el = $(this.el);
         this.listen();
@@ -122,7 +128,10 @@ app.ShowSoupsView = Backbone.View.extend({
     },
     render: function() {
         this.$el.html( this.template( {
-            collection: this.collection
+            collection: this.collection,
+            type: 'soup',
+            title: 'Soups',
+            id: 'soups-list-home'
         } ));
     },
     listen: function() {
@@ -145,7 +154,7 @@ app.ShowSoupsView = Backbone.View.extend({
 });
 
 app.ShowEntreesView = Backbone.View.extend({
-    template: _.template( $('#show-entrees-template').html() ),
+    template: _.template( $('#home-meal-type-template').html() ),
     initialize: function() {
         this.$el = $(this.el);
         this.listen();
@@ -153,7 +162,10 @@ app.ShowEntreesView = Backbone.View.extend({
     },
     render: function() {
         this.$el.html( this.template( {
-            collection: this.collection
+            collection: this.collection,
+            type: 'entree',
+            title: 'Entrees',
+            id: 'entrees-list-home'
         } ));
     },
     listen: function() {
@@ -176,7 +188,7 @@ app.ShowEntreesView = Backbone.View.extend({
 });
 
 app.ShowSidesView = Backbone.View.extend({
-    template: _.template( $('#show-sides-template').html() ),
+    template: _.template( $('#home-meal-type-template').html() ),
     initialize: function() {
         this.$el = $(this.el);
         this.listen();
@@ -184,7 +196,10 @@ app.ShowSidesView = Backbone.View.extend({
     },
     render: function() {
         this.$el.html( this.template( {
-            collection: this.collection
+            collection: this.collection,
+            type: 'side',
+            title: 'Sides',
+            id: 'sides-list-home'
         } ));
     },
     listen: function() {
@@ -207,7 +222,7 @@ app.ShowSidesView = Backbone.View.extend({
 });
 
 app.ShowDessertsView = Backbone.View.extend({
-    template: _.template( $('#show-desserts-template').html() ),
+    template: _.template( $('#home-meal-type-template').html() ),
     initialize: function() {
         this.$el = $(this.el);
         this.listen();
@@ -215,7 +230,10 @@ app.ShowDessertsView = Backbone.View.extend({
     },
     render: function() {
         this.$el.html( this.template( {
-            collection: this.collection
+            collection: this.collection,
+            type: 'dessert',
+            title: 'Desserts',
+            id: 'desserts-list-home'
         } ));
     },
     listen: function() {
