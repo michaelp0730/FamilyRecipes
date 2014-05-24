@@ -1,4 +1,4 @@
-var app = app || {};
+$.namespace('app');
 
 app.HomeHeaderView = Backbone.View.extend({
     template: _.template( $('#home-header-template').html() ),

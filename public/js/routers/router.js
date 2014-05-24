@@ -1,4 +1,4 @@
-var app = app || {};
+$.namespace('app');
 
 app.RecipesRouter = Backbone.Router.extend({
     routes: {

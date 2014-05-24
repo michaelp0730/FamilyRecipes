@@ -1,5 +1,5 @@
 
-var app = app || {};
+$.namespace('app');
 
 app.Breakfasts = Backbone.Collection.extend({
     model: app.Recipe,

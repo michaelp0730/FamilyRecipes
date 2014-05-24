@@ -1,4 +1,4 @@
-var app = app || {};
+$.namespace('app');
 
 app.Recipe = Backbone.Model.extend({
     defaults: {
