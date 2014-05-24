@@ -265,7 +265,7 @@ app.RecipesRouter = Backbone.Router.extend({
                 if (col === '[]') {
                     $('#entrees-container').hide();
                 } else {
-                    var soupsView = new app.ShowEntreesView({
+                    var entreesView = new app.ShowEntreesView({
                             collection: entreesSearchColllection,
                             el: '#entrees-container'
                         });
@@ -280,7 +280,7 @@ app.RecipesRouter = Backbone.Router.extend({
                 if (col === '[]') {
                     $('#sides-container').hide();
                 } else {
-                    var soupsView = new app.ShowSidesView({
+                    var sidesView = new app.ShowSidesView({
                             collection: sidesSearchColllection,
                             el: '#sides-container'
                         });
@@ -295,7 +295,7 @@ app.RecipesRouter = Backbone.Router.extend({
                 if (col === '[]') {
                     $('#desserts-container').hide();
                 } else {
-                    var soupsView = new app.ShowDessertsView({
+                    var desertsView = new app.ShowDessertsView({
                             collection: dessertsSearchColllection,
                             el: '#desserts-container'
                         });
