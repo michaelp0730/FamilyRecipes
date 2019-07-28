@@ -38,6 +38,7 @@ body {
     font-family: 'Helvetica Neue', Helvetica, Tahoma, sans-serif;
     font-weight: 300;
 	line-height: 1;
+    margin: 0 12px;
 }
 ol, ul {
 	list-style: none;
@@ -53,10 +54,6 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
-
-.App {
-    margin: 0 12px;
 }
 
 .container {

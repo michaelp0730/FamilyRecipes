@@ -1,7 +1,6 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 const LinksRow = (props) => {
-    console.log('aaa props: ', props);
     const { recipes } = props;
     const recipeType = props.title.toLowerCase();
     const recipesList = recipes.map(function (recipe) {
