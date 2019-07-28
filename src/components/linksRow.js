@@ -6,8 +6,8 @@ const LinksRow = (props) => {
     const recipeType = props.title.toLowerCase();
     const recipesList = recipes.map(function (recipe) {
         return <li key={recipe.slug}>
-                <a href={'/' + recipeType + '/' + recipe.slug + '/'}>{recipe.title}</a>
-            </li>
+                 <a href={'/' + recipeType + '/' + recipe.slug + '/'}>{recipe.title}</a>
+               </li>
     });
     return (
         <section className="container" aria-label={props.title}>

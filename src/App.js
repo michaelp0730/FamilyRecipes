@@ -9,6 +9,7 @@ import Sides from './recipes/sides';
 import Soups from './recipes/soups';
 
 function App() {
+  let date = new Date();
   return (
     <div className="App">
       <h1>Family <span>Recipes</span></h1>
@@ -18,6 +19,9 @@ function App() {
       <LinksRow title="Entrees" recipes={ Entrees } />
       <LinksRow title="Sides" recipes={ Sides } />
       <LinksRow title="Desserts" recipes={ Desserts } />
+      <footer className="footer-main">
+        {'Copyright 2011 - ' + date.getFullYear() + ' PellegriniPage.com | All Rights Reserved'}
+      </footer>
     </div>
   );
 }
