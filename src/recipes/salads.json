@@ -1,7 +1,7 @@
 [
 	{
 		"slug": "michaels-fried-avocado-crab-salad",
-		"title": "Michael's Fried Avocado <span>Crab Salad</span>",
+		"title": "Michael's Fried Avocado Crab Salad",
 		"type": "salad",
 		"about": "This is based on a salad we used to serve at Waterfront Seafood Grill when I worked there years ago. I modified it by frying the avocados and adding fresh mango. It's a great summer salad featuring fresh Dungeness crab, butter lettuce, and a scallion-yogurt dressing. I've been making it for years and its usually a hit. Hope you enjoy.",
 		"ingredients": [
@@ -20,7 +20,7 @@
 			"Panko (Japanese Breadcrumbs)",
 			"Salt & Pepper"
 		],
-		"instructions": "<p>Start by making your scallion-yogurt dressing. Add the yogurt, mayo, lemon juice, green onions, garlic, and salt & pepper to a blender and blend for 5 - 10 seconds. Taste and season if necessary. </p><p>Peel your avocado and slice into eighths. Crack an egg into a bowl and stir vigorously with a fork for 30 seconds. Pour 2 cups of Panko breadcrumbs onto a plate and place next to the bowl of egg.  Place vegetable oil in a pan on the stove top, set heat to medium. Season the avocado slices with salt & pepper,  dip a slice in the egg, coat it in Panko, and set aside. Repeat for remaining avocado slices.</p><p>Now that your oil has heated place the avocado slices in the pan. Flip each slice after frying for a couple minutes. You're looking for a nice golden brown color. After frying the avocado slices, place them on a paper towel to soak up excess grease. Place butter lettuce in bowls, then sprinkle mango pieces over. Squeeze fresh lemon over each bowl, pour dressing, then garnish with fresh crab meat and fried avocado slices.</p>",
+		"instructions": "Start by making your scallion-yogurt dressing. Add the yogurt, mayo, lemon juice, green onions, garlic, and salt & pepper to a blender and blend for 5 - 10 seconds. Taste and season if necessary.  Peel your avocado and slice into eighths. Crack an egg into a bowl and stir vigorously with a fork for 30 seconds. Pour 2 cups of Panko breadcrumbs onto a plate and place next to the bowl of egg.  Place vegetable oil in a pan on the stove top, set heat to medium. Season the avocado slices with salt & pepper,  dip a slice in the egg, coat it in Panko, and set aside. Repeat for remaining avocado slices. Now that your oil has heated place the avocado slices in the pan. Flip each slice after frying for a couple minutes. You're looking for a nice golden brown color. After frying the avocado slices, place them on a paper towel to soak up excess grease. Place butter lettuce in bowls, then sprinkle mango pieces over. Squeeze fresh lemon over each bowl, pour dressing, then garnish with fresh crab meat and fried avocado slices.",
 		"keywords": [
 			"crab salad",
 			"avocado salad",
@@ -62,7 +62,7 @@
 	},
 	{
 		"slug": "jasons-seafood-salad",
-		"title": "Jason's <span>Seafood Salad</span>",
+		"title": "Jason's Seafood Salad",
 		"type": "salad",
 		"about": "This is one of the dishes that Chef Jason Wilson, of the restaurant 'Crush' in Seattle, taught me to make on the TV show when I proposed to Jessica. It's a hot/cold salad featuring fresh seafood, fennel, cucumber, and mint.",
 		"ingredients": [
@@ -105,7 +105,7 @@
 	},
 	{
 		"slug": "heirloom-tomato-vinaigrette",
-		"title": "Heirloom Tomato <span>Vinaigrette</span>",
+		"title": "Heirloom Tomato Vinaigrette",
 		"type": "salad",
 		"about": "This is a nice light salad dressing based on heirloom tomatoes. It's perfect for any type of house or mixed greens salad. ",
 		"ingredients": [
@@ -119,7 +119,7 @@
 			"Dash of Worcestershire",
 			"Salt & Pepper"
 		],
-		"instructions": "<p>Add all ingredients to a blender and liquify. Taste and season as necessary.</p>",
+		"instructions": "Add all ingredients to a blender and liquify. Taste and season as necessary.",
 		"keywords": [
 			"heirloom",
 			"salad",
@@ -146,7 +146,7 @@
 	},
 	{
 		"slug": "mustard-dill-tortellini-salad-skewers",
-		"title": "Mustard-Dill <span>Tortellini Salad Skewers</span>",
+		"title": "Mustard-Dill Tortellini Salad Skewers",
 		"type": "salad",
 		"about": "This is a recipe Jessica made for her baby shower with Ava. It ended up being the most popular dish there so we had to save the recipe.",
 		"ingredients": [
@@ -156,7 +156,7 @@
 			"1 pt. grape tomatoes, cut in half",
 			"Mustard-Dill Vinaigrette - or Champagne Vinaigrette"
 		],
-		"instructions": "<p>Cook tortellini according to package directions. Rinse under cold running water.</p><p>Place sugar snap peas in a small bowl; cover with plastic wrap. Microwave at HIGH 2 minutes. Let stand, covered, 2 minutes. Rinse under cold running water.</p><p>Thread each skewer with 1 sugar snap pea, 1 tortellini, and 1 tomato half. Place skewers in a 13- x 9-inch baking dish. Pour Mustard-Dill Vinaigrette over skewers, turning to coat. Cover and chill 4 hours. Transfer skewers to a serving platter; discard any remaining vinaigrette.</p><p>*1 (12-oz.) bottle light Champagne vinaigrette may be substituted. For testing purposes only, we used Girard's Light Champagne Dressing.</p>",
+		"instructions": "Cook tortellini according to package directions. Rinse under cold running water. Place sugar snap peas in a small bowl; cover with plastic wrap. Microwave at HIGH 2 minutes. Let stand, covered, 2 minutes. Rinse under cold running water. Thread each skewer with 1 sugar snap pea, 1 tortellini, and 1 tomato half. Place skewers in a 13- x 9-inch baking dish. Pour Mustard-Dill Vinaigrette over skewers, turning to coat. Cover and chill 4 hours. Transfer skewers to a serving platter; discard any remaining vinaigrette. *1 (12-oz.) bottle light Champagne vinaigrette may be substituted. For testing purposes only, we used Girard's Light Champagne Dressing.",
 		"keywords": [
 			"mustard",
 			"salad",
@@ -177,7 +177,7 @@
 	},
 	{
 		"slug": "edamame-black-bean-salad",
-		"title": "Edamame <span>Black Bean Salad</span>",
+		"title": "Edamame Black Bean Salad",
 		"type": "salad",
 		"about": "This recipe came from Jessica's cousin Heather. It's a healthy dish that's easy to make and sounds delicious!",
 		"ingredients": [
@@ -191,7 +191,7 @@
 			"1/4 teaspoon salt",
 			"1/4 teaspoon cracked black pepper"
 		],
-		"instructions": "<p>In 2-quart saucepan, cook edamame according to package directions; drain and rinse with cold water. In large bowl, toss edamame with remaining ingredients. Serve immediately or refrigerate until serving.</p>",
+		"instructions": "In 2-quart saucepan, cook edamame according to package directions; drain and rinse with cold water. In large bowl, toss edamame with remaining ingredients. Serve immediately or refrigerate until serving.",
 		"keywords": [
 			"salad",
 			"heather",
@@ -221,7 +221,7 @@
 	},
 	{
 		"slug": "el-gaucho-caesar-salad",
-		"title": "El Gaucho <span>Caesar Salad</span>",
+		"title": "El Gaucho Caesar Salad",
 		"type": "salad",
 		"about": "Although this isn't technically a family recipe, El Gaucho has been a big part of both of our lives for a long time, and this recipe is one that we have each made countless times. It's a classic recipe that most people think is Italian, but its actually from Mexico. Caesar Gardini had a restaurant in Tijuana and he made this salad with 'everything he had' for one of his regular customers. The dish gained popularity, and due to the name Caesar, it became associated with Italian restaurants. At El Gaucho the Caesar is prepared tableside from scratch using premium fresh ingredients, and a coddled egg. It's prepared in a large wooden bowl with wooden tongs. Bowtie optional.",
 		"ingredients": [
@@ -237,7 +237,7 @@
 			"Parmesan cheese",
 			"1 egg, coddled"
 		],
-		"instructions": "<p>Place egg in a dish of very hot water before you begin making the salad. This will kill any bacteria on the shell, making it safe to use the raw egg yolk in your dressing.</p><p>In a large wooden salad bowl, add a good amount of fresh ground black pepper, minced garlic, and anchovies. If there is some liquid in the anchovies, add a teaspoon or two to the salad bowl. Using a fork (or two) start mashing these ingredients into the bowl and continue until a paste begins to form. Add the juice from one lemon (watch out for seeds), worcestershire and dijon mustard. Continue mixing and mashing in the bowl until you have a thick liquid. Add olive oil and egg yolk, continue mixing.</p><p>Add lettuce, croutons, and Parmesan cheese, then toss. Be sure to toss well so that the lettuce is equally dressed. After plating, add more Parmesan cheese and ground pepper.</p>",
+		"instructions": "Place egg in a dish of very hot water before you begin making the salad. This will kill any bacteria on the shell, making it safe to use the raw egg yolk in your dressing. In a large wooden salad bowl, add a good amount of fresh ground black pepper, minced garlic, and anchovies. If there is some liquid in the anchovies, add a teaspoon or two to the salad bowl. Using a fork (or two) start mashing these ingredients into the bowl and continue until a paste begins to form. Add the juice from one lemon (watch out for seeds), worcestershire and dijon mustard. Continue mixing and mashing in the bowl until you have a thick liquid. Add olive oil and egg yolk, continue mixing. Add lettuce, croutons, and Parmesan cheese, then toss. Be sure to toss well so that the lettuce is equally dressed. After plating, add more Parmesan cheese and ground pepper.",
 		"keywords": [
 			"salad",
 			"caesar salad",

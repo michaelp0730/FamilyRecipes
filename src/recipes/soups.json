@@ -23,7 +23,7 @@
 			"1.5 pounds of halibut or sea bass",
 			"1 pound of dungeness crab meat"
 		],
-		"instructions": "<p>Heat the oil in a very large pot over medium heat. Add the fennel, onion, shallots, and salt and saute until the onion is translucent, about 10 minutes. Add the garlic and 3/4 teaspoon of red pepper flakes, and saute 2 minutes. Stir in the tomato paste. Add tomatoes with their juices, wine, fish stock and bay leaf. Cover and bring to a simmer. Reduce the heat to medium-low. Cover and simmer until the flavors blend, about 30 minutes.</p><p>Add the clams and mussels to the cooking liquid. Cover and cook until the clams and mussels begin to open, about 5 minutes. Add the shrimp and fish. Simmer gently until the fish and shrimp are just cooked through, and the clams are completely open, stirring gently, about 5 minutes longer (discard any clams and mussels that do not open). Season the soup, to taste, with more salt and red pepper flakes.</p><p>Ladle the soup into bowls and serve.</p>",
+		"instructions": "Heat the oil in a very large pot over medium heat. Add the fennel, onion, shallots, and salt and saute until the onion is translucent, about 10 minutes. Add the garlic and 3/4 teaspoon of red pepper flakes, and saute 2 minutes. Stir in the tomato paste. Add tomatoes with their juices, wine, fish stock and bay leaf. Cover and bring to a simmer. Reduce the heat to medium-low. Cover and simmer until the flavors blend, about 30 minutes. Add the clams and mussels to the cooking liquid. Cover and cook until the clams and mussels begin to open, about 5 minutes. Add the shrimp and fish. Simmer gently until the fish and shrimp are just cooked through, and the clams are completely open, stirring gently, about 5 minutes longer (discard any clams and mussels that do not open). Season the soup, to taste, with more salt and red pepper flakes. Ladle the soup into bowls and serve.",
 		"keywords": [
 			"stew",
 			"soup",
@@ -68,7 +68,7 @@
 	},
 	{
 		"slug": "jessicas-chicken-taco-chili",
-		"title": "Jessica's <span>Chicken Taco Chili</span>",
+		"title": "Jessica's Chicken Taco Chili",
 		"type": "soup",
 		"about": "This was a recipe that Jessica originally got from her cousin Lauren. Its a great hearty dish that she has made several times and everyone always enjoys it. It's a crockpot dish so it takes a while to cook, but if you like chili and Mexican food, this one is a no-brainer!",
 		"ingredients": [
@@ -81,7 +81,7 @@
 			"1 (1.25 oz.) package taco seasoning",
 			"3 whole skinless, boneless, chicken breasts, thawed or frozen"
 		],
-		"instructions": "<p>Stir onion, beans, corn, tomato sauce, dice tomatoes, and taco sauce into a slow cooker. Sautee the onion before to make sure that they are not crunchy. Lay the chicken breast on top of the mixture, pressing down slightly so that it gets covered by other ingredients. Set slow cooker to low heat, cover, and cook for 3-4 hours on low if your chicken is thawed. May take 4-5 hours on low if your chicken is frozen.</p><p>Remove chicken breasts from the chili and shred. A good tip for shredding cooked chicken is to place it in a bowl and use a powered hand mixer. It shreds perfectly evenly. Stir shredded chicken back into the soup. You're technically supposed to cook it on low for another 2 hours in the crockpot but its not really necessary. It's a very forgiving dish that can go about as long as you want it to.</p><p>Top with shredded cheese, sour cream, and crushed tortilla chips.</p>",
+		"instructions": "Stir onion, beans, corn, tomato sauce, dice tomatoes, and taco sauce into a slow cooker. Sautee the onion before to make sure that they are not crunchy. Lay the chicken breast on top of the mixture, pressing down slightly so that it gets covered by other ingredients. Set slow cooker to low heat, cover, and cook for 3-4 hours on low if your chicken is thawed. May take 4-5 hours on low if your chicken is frozen. Remove chicken breasts from the chili and shred. A good tip for shredding cooked chicken is to place it in a bowl and use a powered hand mixer. It shreds perfectly evenly. Stir shredded chicken back into the soup. You're technically supposed to cook it on low for another 2 hours in the crockpot but its not really necessary. It's a very forgiving dish that can go about as long as you want it to. Top with shredded cheese, sour cream, and crushed tortilla chips.",
 		"keywords": [
 			"stew",
 			"soup",
@@ -106,7 +106,7 @@
 	},
 	{
 		"slug": "chicken-enchilada-soup",
-		"title": "Chicken Enchilada <span>Soup</span>",
+		"title": "Chicken Enchilada Soup",
 		"type": "soup",
 		"about": "This is a great slow-cooking soup that was submitted by Uncle Jim and Aunt Brenda. Super easy to make and perfect for lazy Sundays.",
 		"ingredients": [
@@ -125,7 +125,7 @@
 			"1/2 teaspoon salt",
 			"1-can Mexican Black Beans Drained (optional)"
 		],
-		"instructions": "<p>Rinse and pat dry chicken breast, then place in bottom of oiled slow cooker. Add all other mixed ingredients. Cook on low for 6 hours. Transfer chicken to large plate and shred the meat with 2 forks. Remove bay leaves and add black beans. Return chicken to slow cooker and continue cooking for additional 30 - 60 minutes. Garnish with sour cream, wedge of lime, avocado, cilantro, and tortilla strips.</p>",
+		"instructions": "Rinse and pat dry chicken breast, then place in bottom of oiled slow cooker. Add all other mixed ingredients. Cook on low for 6 hours. Transfer chicken to large plate and shred the meat with 2 forks. Remove bay leaves and add black beans. Return chicken to slow cooker and continue cooking for additional 30 - 60 minutes. Garnish with sour cream, wedge of lime, avocado, cilantro, and tortilla strips.",
 		"keywords": [
 			"chicken",
 			"enchilada",
@@ -149,7 +149,7 @@
 	},
 	{
 		"slug": "loaded-potato-soup",
-		"title": "Loaded <span>Potato Soup</span>",
+		"title": "Loaded Potato Soup",
 		"type": "soup",
 		"about": "This is a recipe that Jessica found online. We made it once and thought it was great. Here's the description it came with: \"Such a simple and tasty soup that really fills you up! We loved the spin on regular potato soup... adding bacon, sour cream, cheese and chives to make it like the oh so yummy loaded baked potato! Served with cornbread, this was SUCH a yummy meal! We hope you guys enjoy this recipe as much as we did, especially with that crisp fall air we seem to be seeing more and more of!\"",
 		"ingredients": [
@@ -163,7 +163,7 @@
 			"1 cup cream or 1 cup 1/2 and 1/2 cream",
 			"1 cup shredded sharp cheddar cheese"
 		],
-		"instructions": "<p>Combine first 7 ingredients in a large slow cooker and cook on high for 4 hours or low for 8 hours (potatoes should be tender). Then you will need to mash potatoes until coarsely chopped and soup is slightly thickened. Stir in cream and cheese.</p><p>Garnish with cives, sour cream, bacon, and cheeses. Simple and delicious!</p>",
+		"instructions": "Combine first 7 ingredients in a large slow cooker and cook on high for 4 hours or low for 8 hours (potatoes should be tender). Then you will need to mash potatoes until coarsely chopped and soup is slightly thickened. Stir in cream and cheese. Garnish with cives, sour cream, bacon, and cheeses. Simple and delicious!",
 		"keywords": [
 			"baked",
 			"potato",
@@ -188,7 +188,7 @@
 	},
 	{
 		"slug": "ricks-lobster-corn-chowder",
-		"title": "Rick's <span>Lobster Corn Chowder</span>",
+		"title": "Rick's Lobster Corn Chowder",
 		"type": "soup",
 		"about": "This is probably my favorite of Rick's dishes. I remember having it at his house in Iowa for Christmas, 2008. It's a delicious chowder that any seafood (or corn) fan will love. Highly recommended.",
 		"ingredients": [
@@ -209,7 +209,7 @@
 			"2 cups cooked lobster (fresh or frozen), cut into 1/2 inch dice",
 			"1/4 cup parsley"
 		],
-		"instructions": "<p>Cut bacon into small dice and place in a large pot over low heat. Cook, stirring to render the fat, for 5 to 7 minutes. Add butter and let it melt. Add onion and cook over low heat, stirring occasionally, until wilted (about 10 minutes). Add flour, cook and continue to stir for 1 minute.</p><p>Simmer broth, bay leaves, and paprika in the pot for 5 minutes to flavor the broth. Add potatoes and thyme; cook until potatoes are just tender, about 15 minutes. Add half-and-half, corn, peppers, and scallions; cook 10 minutes. Season with salt and pepper</p><p>Add lobster and parsley just before serving hot. Serves 8.</p>",
+		"instructions": "Cut bacon into small dice and place in a large pot over low heat. Cook, stirring to render the fat, for 5 to 7 minutes. Add butter and let it melt. Add onion and cook over low heat, stirring occasionally, until wilted (about 10 minutes). Add flour, cook and continue to stir for 1 minute. Simmer broth, bay leaves, and paprika in the pot for 5 minutes to flavor the broth. Add potatoes and thyme; cook until potatoes are just tender, about 15 minutes. Add half-and-half, corn, peppers, and scallions; cook 10 minutes. Season with salt and pepper Add lobster and parsley just before serving hot. Serves 8.",
 		"keywords": [
 			"lobster",
 			"seafood",
@@ -249,7 +249,7 @@
 	},
 	{
 		"slug": "michaels-meat-lovers-chili",
-		"title": "Michael's <span>Meat Lovers Chili</span>",
+		"title": "Michael's Meat Lovers Chili",
 		"type": "soup",
 		"about": "I call this one the Vegan Nightmare. Disclaimer** If you don't like tender, slow-cooked meats, then this isn't the dish for you. I first made this on a Football Sunday at home and was very pleased with it. I don't cook with recipes so everything I'm putting here is an approximation. Like Gigi always said, 'You cook with what you have.' Feel free to substitute meats, or any other ingredients. Hope you enjoy!",
 		"ingredients": [
@@ -280,7 +280,7 @@
 			"sour cream",
 			"green onion, chopped"
 		],
-		"instructions": "<p>Combine all ingredients in either a crock pot, or in a stew pot on the stove top. If you're using a crock pot, set the temperature to high. If you're using the stove top, set the burner temperature to ~3. Let cook for ~6 hours, stirring occasionally. If boiling occurs, lower the temperature accordingly. Before serving, remove rib bones, and slice the large pieces of meat into small pieces. Stir everything back in, remove the rosemary sprigs, and serve. Garnish with cheddar cheese, sour cream, and chopped green onion.</p>",
+		"instructions": "Combine all ingredients in either a crock pot, or in a stew pot on the stove top. If you're using a crock pot, set the temperature to high. If you're using the stove top, set the burner temperature to ~3. Let cook for ~6 hours, stirring occasionally. If boiling occurs, lower the temperature accordingly. Before serving, remove rib bones, and slice the large pieces of meat into small pieces. Stir everything back in, remove the rosemary sprigs, and serve. Garnish with cheddar cheese, sour cream, and chopped green onion.",
 		"keywords": [
 			"soup",
 			"chili",
@@ -329,7 +329,7 @@
 	},
 	{
 		"slug": "elmers-brisket-soup",
-		"title": "Elmer's <span>Brisket Soup</span>",
+		"title": "Elmer's Brisket Soup",
 		"type": "soup",
 		"about": "This is one of the dishes that I associate with my childhood. My Dad made this soup regularly, and although I wasn't very big on brisket as a child, I always loved the soup. From my Mom: 'Another dish that was one of Michael’s dads favorite was Italian soup. It can be made with any type of meat but we mostly used brisket of beef. About a pound of brisket, sliced to serving size pieces and browned in olive oil with minced garlic and onions.'",
 		"ingredients": [
@@ -346,7 +346,7 @@
 			"Small Seashell pasta",
 			"Parmesan cheese"
 		],
-		"instructions": "<p>Slice the brisket into serving size pieces and brown in a pan with olive oil, minced garlic, and minced onion. In a large soup pot or crock pot, add meat, garlic, onion, celery leaves, parsley, salt and pepper. Add 1 can of Hunts whole tomatoes, break up tomatoes in to smaller pieces, fill with water, cover and simmer until meat is tender. Add carrots about an hour before the meat is done and celery stalks the last 30 minutes.</p><p>Remove meat and vegetables to serve as side dish and add small seashell pasta to broth for soup. Cook until pasta is al dente.  Serve soup with lots of parmesan cheese on top.</p>",
+		"instructions": "Slice the brisket into serving size pieces and brown in a pan with olive oil, minced garlic, and minced onion. In a large soup pot or crock pot, add meat, garlic, onion, celery leaves, parsley, salt and pepper. Add 1 can of Hunts whole tomatoes, break up tomatoes in to smaller pieces, fill with water, cover and simmer until meat is tender. Add carrots about an hour before the meat is done and celery stalks the last 30 minutes. Remove meat and vegetables to serve as side dish and add small seashell pasta to broth for soup. Cook until pasta is al dente.  Serve soup with lots of parmesan cheese on top.",
 		"keywords": [
 			"elmer",
 			"brisket",
@@ -387,7 +387,7 @@
 	},
 	{
 		"slug": "jims-black-bean-turkey-chili",
-		"title": "Jim's <span>Black Bean Turkey Chili</span>",
+		"title": "Jim's Black Bean Turkey Chili",
 		"type": "soup",
 		"about": "This is one of Uncle Jim and Aunt Brenda's favorites. Considering my love for chili and turkey, I'm going to have to make this one very soon.",
 		"ingredients": [
@@ -410,7 +410,7 @@
 			"Grated Cheddar Cheese (optional garnish)",
 			"Cornbread (optional side)"
 		],
-		"instructions": "<p>Saute ground turkey in a large non-stick skillet over medium heat until lightly browned; remove from heat and set aside. Heat olive oil in a soup pot, add onions and peppers, and saute until soft. Add garlic and seasonings and saute about 2 minutes.</p><p>Stir in remaining ingredients and turkey; simmer for at least 30 minutes. Garnish options: chopped avocado, sour cream, or grated cheddar cheese. Serve with cornbread.</p>",
+		"instructions": "Saute ground turkey in a large non-stick skillet over medium heat until lightly browned; remove from heat and set aside. Heat olive oil in a soup pot, add onions and peppers, and saute until soft. Add garlic and seasonings and saute about 2 minutes. Stir in remaining ingredients and turkey; simmer for at least 30 minutes. Garnish options: chopped avocado, sour cream, or grated cheddar cheese. Serve with cornbread.",
 		"keywords": [
 			"soup",
 			"chili",
