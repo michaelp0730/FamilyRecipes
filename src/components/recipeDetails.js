@@ -62,17 +62,21 @@ const RecipeDetails = (props) => {
     if (currentRecipe === null) {
         returnView = <NotFound />
     } else {
-        returnView = <div>
+        returnView = <div className="recipe-details">
             <p><a href="/">Back home</a></p>
             <h1>{ currentRecipe.title }</h1>
-            <p>{ currentRecipe.type }</p>
+            <p>
+                <span className={ 'label ' + currentRecipe.type }>{ currentRecipe.type }</span>
+            </p>
             <p>{ currentRecipe.about }</p>
+            <h3>Ingredients</h3>
             <ul className="ingredients">
                 {currentRecipe.ingredients.map((value, index) => {
                     return <li key={index}>{value}</li>
                 })}
             </ul>
-            <p>{ currentRecipe.instructions }</p>
+            <h3>Instructions</h3>
+            <p className="instructions">{ currentRecipe.instructions }</p>
             <FooterMain />
         </div>
     }

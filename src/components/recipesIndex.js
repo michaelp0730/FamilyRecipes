@@ -20,6 +20,7 @@ const RecipesIndex = () => {
     return (
         <div>
             <h1>Family <span>Recipes</span></h1>
+            <p>This is a collection of recipes from our family and friends, as well as restaurants we've worked in, tv shows we've appeared on, etc. Lots of special stuff in here. Please enjoy and eat well!</p>
             <LinksRow title="Breakfast" recipes={ sortedBreakfast } />
             <LinksRow title="Salads" recipes={ sortedSalads } />
             <LinksRow title="Soups" recipes={ sortedSoups } />

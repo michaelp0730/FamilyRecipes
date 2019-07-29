@@ -35,7 +35,8 @@ footer, header, hgroup, menu, nav, section {
 body {
     background-color: #fefefe;
     color: #222;
-    font-family: 'Helvetica Neue', Helvetica, Tahoma, sans-serif;
+    font-family: 'Source Sans Pro', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
     font-weight: 300;
 	line-height: 1;
     margin: 0 12px;
@@ -67,19 +68,19 @@ table {
 
 h1, h2, h3, h4, h5, h6 {
     color: #263f47;
-    font-family: Georgia, 'Courier New', Palatino, serif;
     font-weight: 400;
-    margin: .5em 0;
+    margin: 1em 0 .5em;
 }
 
-h1 { font-size: xx-large; }
-h2 { font-size: x-large; }
-h3 { font-size: large; }
-h4 { font-size: medium; }
-h5 { font-size: small; }
-h6 { font-size: x-small; }
+h1 { font-size: 36px; margin-top: .66em; }
+h2 { font-size: 30px; }
+h3 { font-size: 24px; }
+h4 { font-size: 20px; }
+h5 { font-size: 18px; }
+h6 { font-size: 16px; }
 
 h1 span,
+.recipe-details h1,
 h2 span,
 h3 span,
 h4 span,
@@ -88,31 +89,32 @@ h6 span {
     color: #72bad1;
 }
 
-h2.heading-label {
+.label {
     background-color: salmon;
     border-radius: 4px;
     color: white;
     display: inline-block;
-    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 2px 6px;
+}
+
+.heading-label {
     font-size: medium;
     padding: 6px 12px;
 }
 
-.heading-label.breakfast { background-color: #f9629e; }
-.heading-label.salads { background-color: #818542; }
-.heading-label.soups { background-color: #7e7abd; }
-.heading-label.entrees { background-color: #872c19; }
-.heading-label.sides { background-color: #db5c2c; }
-.heading-label.desserts { background-color: #b6688f; }
+.label.breakfast { background-color: #f9629e; }
+.label.salad, .label.salads { background-color: #818542; }
+.label.soup, .label.soups { background-color: #7e7abd; }
+.label.entree, .label.entrees { background-color: #872c19; }
+.label.side, .label.sides { background-color: #db5c2c; }
+.label.dessert, .label.desserts { background-color: #b6688f; }
 
 p {
-    font-size: small;
     line-height: 1.5;
     margin: .5em 0;
 }
 
 a {
-    font-size: small;
     text-decoration: none;
 }
 
@@ -123,7 +125,22 @@ a {
 
 .footer-main {
     color: #999;
-    font-size: x-small;
+    font-size: 11px;
     margin: 12px;
     text-align: center;
+}
+
+.ingredients {
+    margin: 12px 0;
+}
+
+.ingredients li {
+    list-style-type: square;
+    margin: 8px 0 8px 16px;
+}
+
+.instructions {
+    background-color: #eee;
+    color: black;
+    padding: 12px;
 }

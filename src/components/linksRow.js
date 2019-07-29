@@ -10,7 +10,7 @@ const LinksRow = (props) => {
     });
     return (
         <section className="container" aria-label={props.title}>
-            <h2 className={'heading-label ' + recipeType}>{props.title}</h2>
+            <h2 className={'label heading-label ' + recipeType}>{props.title}</h2>
             <ul className="link-list">
                 { recipesList }
             </ul>

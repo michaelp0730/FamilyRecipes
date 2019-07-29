@@ -13,6 +13,11 @@ const routing = (
       <Switch>
         <Route exact path="/" component={ RecipesIndex } />
         <Route path="/breakfast/:slug" component={ RecipeDetails } />
+        <Route path="/salads/:slug" component={ RecipeDetails } />
+        <Route path="/soups/:slug" component={ RecipeDetails } />
+        <Route path="/entrees/:slug" component={ RecipeDetails } />
+        <Route path="/sides/:slug" component={ RecipeDetails } />
+        <Route path="/desserts/:slug" component={ RecipeDetails } />
         <Route component={ NotFound } />
       </Switch>
     </div>
