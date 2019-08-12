@@ -23,12 +23,12 @@ class RecipesIndex extends React.Component {
         this.sortedSides = AlphabetizeRecipes(Sides);
         this.sortedDesserts = AlphabetizeRecipes(Desserts);
 
-        this.searchBreakfast = [];
-        this.searchSalads = [];
-        this.searchSoups = [];
-        this.searchEntrees = [];
-        this.searchSides = [];
-        this.searchDesserts = [];
+        this.breakfast = this.sortedBreakfast;
+        this.salads = this.sortedSalads;
+        this.soups = this.sortedSoups;
+        this.entrees = this.sortedEntrees;
+        this.sides = this.sortedSides;
+        this.desserts = this.sortedDesserts;
         this.showSearch = false;
     }
 
@@ -46,29 +46,36 @@ class RecipesIndex extends React.Component {
         });
 
         if (this.state.showSearch) {
-            this.searchBreakfast = this.sortedBreakfast.filter(recipe => {
+            this.breakfast = this.sortedBreakfast.filter(recipe => {
                 return recipe.slug.indexOf(txt) !== -1;
             });
 
-            this.searchSalads = this.sortedSalads.filter(recipe => {
+            this.salads = this.sortedSalads.filter(recipe => {
                 return recipe.slug.indexOf(txt) !== -1;
             });
 
-            this.searchSoups = this.sortedSoups.filter(recipe => {
+            this.soups = this.sortedSoups.filter(recipe => {
                 return recipe.slug.indexOf(txt) !== -1;
             });
 
-            this.searchEntrees = this.sortedEntrees.filter(recipe => {
+            this.entrees = this.sortedEntrees.filter(recipe => {
                 return recipe.slug.indexOf(txt) !== -1;
             });
 
-            this.searchSides = this.sortedSides.filter(recipe => {
+            this.sides = this.sortedSides.filter(recipe => {
                 return recipe.slug.indexOf(txt) !== -1;
             });
 
-            this.searchDesserts = this.sortedDesserts.filter(recipe => {
+            this.desserts = this.sortedDesserts.filter(recipe => {
                 return recipe.slug.indexOf(txt) !== -1;
             });
+        } else {
+            this.breakfast = this.sortedBreakfast;
+            this.salads = this.sortedSalads;
+            this.soups = this.sortedSoups;
+            this.entrees = this.sortedEntrees;
+            this.sides = this.sortedSides;
+            this.desserts = this.sortedDesserts;
         }
     }
 
@@ -85,12 +92,12 @@ class RecipesIndex extends React.Component {
                     </label>
                 </form>
 
-                <LinksRow title="Breakfast" recipes={ this.showSearch ? this.searchBreakfast : this.sortedBreakfast } />
-                <LinksRow title="Salads" recipes={ this.showSearch ? this.searchSalads : this.sortedSalads } />
-                <LinksRow title="Soups" recipes={ this.showSearch ? this.searchSoups : this.sortedSoups } />
-                <LinksRow title="Entrees" recipes={ this.showSearch ? this.searchEntrees : this.sortedEntrees } />
-                <LinksRow title="Sides" recipes={ this.showSearch ? this.searchSides : this.sortedSides } />
-                <LinksRow title="Desserts" recipes={ this.showSearch ? this.searchDesserts : this.sortedDesserts } />
+                <LinksRow title="Breakfast" recipes={ this.breakfast } />
+                <LinksRow title="Salads" recipes={ this.salads } />
+                <LinksRow title="Soups" recipes={ this.soups } />
+                <LinksRow title="Entrees" recipes={ this.entrees } />
+                <LinksRow title="Sides" recipes={ this.sides } />
+                <LinksRow title="Desserts" recipes={ this.desserts } />
                 <FooterMain />
             </div>
         );
