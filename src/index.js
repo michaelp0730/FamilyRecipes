@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Route, Switch, Link, BrowserRouter as Router } from 'react-router-dom'
+import { Route, Switch, BrowserRouter as Router } from 'react-router-dom'
 import './familyRecipes.css';
 import RecipesIndex from './components/recipesIndex';
 import RecipeDetails from './components/recipeDetails';
