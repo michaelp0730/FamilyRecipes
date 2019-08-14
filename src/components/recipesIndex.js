@@ -82,15 +82,16 @@ class RecipesIndex extends React.Component {
     render() {
         return (
             <div>
-                <h1>Family <span>Recipes</span></h1>
-                <p>This is a collection of recipes from our family and friends, as well as restaurants we've worked in, tv shows we've appeared on, etc. Lots of special stuff in here. Please enjoy and eat well!</p>
-
-                <form name="recipes-search-form" className="recipes-search-form">
-                    <label>
-                        <strong>Search recipes:</strong>
-                        <input type="text" id="recipes-search" name="recipes-search" className="recipes-search" value={ this.state.value } onChange={ this.handleChange } />
-                    </label>
-                </form>
+                <div className="group">
+                    <h1>Family <span>Recipes</span></h1>
+                    <form name="recipes-search-form" className="recipes-search-form">
+                        <label>
+                            <strong>Search recipes:</strong>
+                            <input type="text" id="recipes-search" name="recipes-search" className="recipes-search" value={ this.state.value } onChange={ this.handleChange } />
+                        </label>
+                    </form>
+                </div>
+                <p className="intro">This is a collection of recipes from our family and friends, as well as restaurants we've worked in, tv shows we've appeared on, etc. Lots of special stuff in here. Please enjoy and eat well!</p>
 
                 <LinksRow title="Breakfast" recipes={ this.breakfast } />
                 <LinksRow title="Salads" recipes={ this.salads } />

@@ -159,3 +159,56 @@ a {
 strong {
 	font-weight: 600;
 }
+
+.group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+@media screen and (min-width: 768px) {
+	h1 {
+		float: left;
+		width: 50%;
+	}
+
+	.recipes-search-form {
+		float: right;
+		margin-right: 20%;
+		width: 30%;
+	}
+
+	.link-list li {
+		float: left;
+		margin: 16px 30px 16px 16px;
+	}
+
+	.intro {
+		display: inline-block;
+		width: 66%;
+	}
+}
+
+@media screen and (min-width: 960px) {
+	.recipes-search-form {
+		width: 25%;
+	}
+
+	.link-list li {
+		margin-right: 32px;
+	}
+
+	.intro {
+		width: 60%;
+	}
+}
+
+@media screen and (min-width: 1170px) {
+	.link-list li {
+		margin: 18px 36px 18px 16px;
+	}
+
+	.intro {
+		width: 50%;
+	}
+}
