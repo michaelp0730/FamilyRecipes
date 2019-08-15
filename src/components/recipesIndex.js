@@ -81,7 +81,7 @@ class RecipesIndex extends React.Component {
 
     render() {
         return (
-            <div>
+            <div className="wrapper">
                 <div className="group">
                     <h1>Family <span>Recipes</span></h1>
                     <form name="recipes-search-form" className="recipes-search-form">
