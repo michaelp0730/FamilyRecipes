@@ -12,7 +12,6 @@ const RecipeDetails = (props) => {
     console.log('RecipeDetails props: ', props);
     let requestPath = props.location.pathname;
     let currentRecipe;
-    let returnView;
 
     // strip requestPath leading slash
     requestPath = requestPath.replace(/^\//, '');
@@ -25,10 +24,11 @@ const RecipeDetails = (props) => {
     let requestSlug = split[1];
 
     function getRecipeFromCollection(collection, slug) {
-        let i;
-        for (i = 0; i < collection.length; i += 1) {
-            if (collection[i].slug === slug) {
-                return collection[i];
+        if (collection.length > 0 && slug !== undefined) {
+            for (let i = 0; i < collection.length; i += 1) {
+                if (collection[i].slug === slug) {
+                    return collection[i];
+                }
             }
         }
         return null;
@@ -60,28 +60,31 @@ const RecipeDetails = (props) => {
     console.log('currentRecipe: ', currentRecipe);
 
     if (currentRecipe === null) {
-        returnView = <NotFound />
+        return <NotFound />;
     } else {
-        returnView = <div className="recipe-details">
-            <p><a href="/">Back home</a></p>
-            <h1>{ currentRecipe.title }</h1>
-            <p>
-                <span className={ 'label ' + currentRecipe.type }>{ currentRecipe.type }</span>
-            </p>
-            <p>{ currentRecipe.about }</p>
-            <h3>Ingredients</h3>
-            <ul className="ingredients">
-                {currentRecipe.ingredients.map((value, index) => {
-                    return <li key={index}>{value}</li>
-                })}
-            </ul>
-            <h3>Instructions</h3>
-            <p className="instructions">{ currentRecipe.instructions }</p>
-            <FooterMain />
-        </div>
+        return (
+            <div className="recipe-details">
+                <p><a href="/">Back home</a></p>
+                <h1>{ currentRecipe.title }</h1>
+                <p>
+                    <span className={ 'label ' + currentRecipe.type }>{ currentRecipe.type }</span>
+                </p>
+                <p className="recipe-description">{ currentRecipe.about }</p>
+                {currentRecipe.img !== undefined &&
+                    <img className="recipe-img" src={ currentRecipe.img } alt="" role="presentation" />
+                }
+                <h3>Ingredients</h3>
+                <ul className="ingredients">
+                    {currentRecipe.ingredients.map((value, index) => {
+                        return <li key={index}>{value}</li>
+                    })}
+                </ul>
+                <h3 className="instructions-heading">Instructions</h3>
+                <p className="instructions">{ currentRecipe.instructions }</p>
+                <FooterMain />
+            </div>
+        );
     }
-
-    return ( returnView );
 };
 
 export default RecipeDetails;

@@ -33,13 +33,13 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-    background-color: #fefefe;
-    color: #222;
-    font-family: 'Source Sans Pro', 'Helvetica Neue', sans-serif;
-    font-size: 15px;
-    font-weight: 300;
+	background-color: #fefefe;
+	color: #222;
+	font-family: 'Source Sans Pro', 'Helvetica Neue', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
 	line-height: 1;
-    margin: 0 12px;
+	margin: 0 12px;
 }
 ol, ul {
 	list-style: none;
@@ -58,18 +58,18 @@ table {
 }
 
 .container {
-    border-bottom: 1px solid #eee;
-    padding: 12px 0;
+	border-bottom: 1px solid #eee;
+	padding: 12px 0;
 }
 
 .row {
-    padding: 12px 0;
+	padding: 12px 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #263f47;
-    font-weight: 400;
-    margin: 1em 0 .5em;
+	color: #263f47;
+	font-weight: 400;
+	margin: 1em 0 .5em;
 }
 
 h1 { font-size: 36px; margin-top: .66em; }
@@ -86,20 +86,20 @@ h3 span,
 h4 span,
 h5 span,
 h6 span {
-    color: #72bad1;
+	color: #72bad1;
 }
 
 .label {
-    background-color: salmon;
-    border-radius: 4px;
-    color: white;
-    display: inline-block;
-    padding: 2px 6px;
+	background-color: salmon;
+	border-radius: 4px;
+	color: white;
+	display: inline-block;
+	padding: 2px 6px;
 }
 
 .heading-label {
-    font-size: medium;
-    padding: 6px 12px;
+	font-size: medium;
+	padding: 6px 12px;
 }
 
 .label.breakfast { background-color: #f9629e; }
@@ -110,12 +110,12 @@ h6 span {
 .label.dessert, .label.desserts { background-color: #b6688f; }
 
 p {
-    line-height: 1.5;
-    margin: .5em 0;
+	line-height: 1.5;
+	margin: .5em 0;
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .recipes-search-form {
@@ -130,30 +130,30 @@ a {
 }
 
 .link-list li {
-    list-style-type: square;
-    margin: 12px 6px 12px 16px;
+	list-style-type: square;
+	margin: 12px 6px 12px 16px;
 }
 
 .footer-main {
-    color: #999;
-    font-size: 11px;
-    margin: 12px;
-    text-align: center;
+	color: #999;
+	font-size: 11px;
+	margin: 12px;
+	text-align: center;
 }
 
 .ingredients {
-    margin: 12px 0;
+	margin: 12px 0;
 }
 
 .ingredients li {
-    list-style-type: square;
-    margin: 8px 0 8px 16px;
+	list-style-type: square;
+	margin: 8px 0 8px 16px;
 }
 
 .instructions {
-    background-color: #eee;
-    color: black;
-    padding: 12px;
+	background-color: #eee;
+	color: black;
+	padding: 12px;
 }
 
 strong {
@@ -167,12 +167,12 @@ strong {
 }
 
 @media screen and (min-width: 768px) {
-	h1 {
+	.group h1 {
 		float: left;
 		width: 50%;
 	}
 
-	.recipes-search-form {
+	.group .recipes-search-form {
 		float: right;
 		width: 35%;
 	}
@@ -186,6 +186,19 @@ strong {
 		display: inline-block;
 		width: 66%;
 	}
+
+	.recipe-description {
+		margin: 24px 0;
+		width: 66%;
+	}
+
+	.recipe-img {
+		float: right;
+	}
+
+	.instructions-heading {
+		margin-top: 50px;
+	}
 }
 
 @media screen and (min-width: 960px) {
@@ -195,7 +208,7 @@ strong {
 		width: 960px;
 	}
 
-	.recipes-search-form {
+	.group .recipes-search-form {
 		width: 25%;
 	}
 
@@ -205,6 +218,11 @@ strong {
 
 	.intro {
 		width: 60%;
+	}
+
+	.recipe-details {
+		margin: 0 auto;
+		width: 768px;
 	}
 }
 
