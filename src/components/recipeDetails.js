@@ -9,7 +9,6 @@ import FooterMain from './footerMain';
 import NotFound from './notFound';
 
 const RecipeDetails = (props) => {
-    console.log('RecipeDetails props: ', props);
     let requestPath = props.location.pathname;
     let currentRecipe;
 
