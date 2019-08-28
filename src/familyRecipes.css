@@ -1,0 +1,237 @@
+*,
+*::before,
+*::after{box-sizing:border-box;}
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	background-color: #fefefe;
+	color: #222;
+	font-family: 'Source Sans Pro', 'Helvetica Neue', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 1;
+	margin: 0 12px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container {
+	border-bottom: 1px solid #eee;
+	padding: 12px 0;
+}
+
+.row {
+	padding: 12px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #263f47;
+	font-weight: 400;
+	margin: 1em 0 .5em;
+}
+
+h1 { font-size: 36px; margin-top: .66em; }
+h2 { font-size: 30px; }
+h3 { font-size: 24px; }
+h4 { font-size: 20px; }
+h5 { font-size: 18px; }
+h6 { font-size: 16px; }
+
+h1 span,
+.recipe-details h1,
+h2 span,
+h3 span,
+h4 span,
+h5 span,
+h6 span {
+	color: #72bad1;
+}
+
+.label {
+	background-color: salmon;
+	border-radius: 4px;
+	color: white;
+	display: inline-block;
+	padding: 2px 6px;
+}
+
+.heading-label {
+	font-size: medium;
+	padding: 6px 12px;
+}
+
+.label.breakfast { background-color: #f9629e; }
+.label.salad, .label.salads { background-color: #818542; }
+.label.soup, .label.soups { background-color: #7e7abd; }
+.label.entree, .label.entrees { background-color: #872c19; }
+.label.side, .label.sides { background-color: #db5c2c; }
+.label.dessert, .label.desserts { background-color: #b6688f; }
+
+p {
+	line-height: 1.5;
+	margin: .5em 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+.recipes-search-form {
+	margin: 18px 0 12px;
+}
+
+.recipes-search {
+	display: block;
+	margin-top: 6px;
+	padding: 3px;
+	width: 100%;
+}
+
+.link-list li {
+	list-style-type: square;
+	margin: 12px 6px 12px 16px;
+}
+
+.footer-main {
+	color: #999;
+	font-size: 11px;
+	margin: 12px;
+	text-align: center;
+}
+
+.ingredients {
+	margin: 12px 0;
+}
+
+.ingredients li {
+	list-style-type: square;
+	margin: 8px 0 8px 16px;
+}
+
+.instructions {
+	background-color: #eee;
+	color: black;
+	padding: 12px;
+}
+
+strong {
+	font-weight: 600;
+}
+
+.group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+@media screen and (min-width: 768px) {
+	.group h1 {
+		float: left;
+		width: 50%;
+	}
+
+	.group .recipes-search-form {
+		float: right;
+		width: 35%;
+	}
+
+	.link-list li {
+		float: left;
+		margin: 16px 30px 16px 16px;
+	}
+
+	.intro {
+		display: inline-block;
+		width: 66%;
+	}
+
+	.recipe-description {
+		margin: 24px 0;
+		width: 66%;
+	}
+
+	.recipe-img {
+		float: right;
+	}
+
+	.instructions-heading {
+		margin-top: 50px;
+	}
+}
+
+@media screen and (min-width: 960px) {
+	.wrapper {
+		margin: 0 auto;
+		padding: 0 6px;
+		width: 960px;
+	}
+
+	.group .recipes-search-form {
+		width: 25%;
+	}
+
+	.link-list li {
+		margin-right: 32px;
+	}
+
+	.intro {
+		width: 60%;
+	}
+
+	.recipe-details {
+		margin: 0 auto;
+		width: 768px;
+	}
+}
+
+@media screen and (min-width: 1170px) {
+	.link-list li {
+		margin: 18px 36px 18px 16px;
+	}
+
+	.intro {
+		width: 50%;
+	}
+}

@@ -1,138 +1,39 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>Family Recipes</title>
-	<meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
-    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif] -->
+  <head>
+    <meta charset="utf-8" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
 
-    <!-- Load 'Open Sans' and 'Cinzel Decorative' from Google Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css' />
-    <link href='http://fonts.googleapis.com/css?family=Cinzel+Decorative' rel='stylesheet' type='text/css' />
-    <link rel="stylesheet" href="css/master.css" media="all" />
-</head>
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Family Recipes | Pellegrini Page</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
 
-<body>
-<!--[if lt IE 7]>
-    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-<![endif]-->
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
 
-    <header id="main-header" class="main-header">
-        <div class="small-10 push-1">
-            <a class="pp-page-link" href="http://pellegrinipage.com/">Back to PellegriniPage</a>
-            <input type="search" class="search" value="Search" />
-            <section id="main-header-section"></section>
-        </div>
-    </header>
-
-    <section id="main-content"></section>
-
-    <footer id="main-footer">
-        Copyright &copy; <span id="copyright-date"></span> The Pellegrini Family | All Rights Reserved
-    </footer>
-
-<script type="text/template" id="home-header-template">
-    <h1 id="main-headline">Family <span class="headline-light">Recipes</span></h1>
-    <nav>
-        <ul>
-            <li class="home">Home</li>
-            <li class="breakfast">Breakfast</li>
-            <li class="salad">Salads</li>
-            <li class="soup">Soups</li>
-            <li class="entree">Entrees</li>
-            <li class="side">Sides</li>
-            <li class="dessert">Desserts</li>
-        </ul>
-    </nav>
-</script>
-
-<script type="text/template" id="recipe-header-template">
-    <h1><%= title %></h1>
-    <span class="<%= type %> small-label"><%= type %></span>
-</script>
-
-<script type="text/template" id="home-recipes-template">
-    <div class="small-10 push-1 container">
-        <div id="search-results"></div>
-
-        <div id="breakfast-container" class="clearfix"></div>
-
-        <div id="salads-container" class="clearfix"></div>
-
-        <div id="soups-container" class="clearfix"></div>
-
-        <div id="entrees-container" class="clearfix"></div>
-
-        <div id="sides-container" class="clearfix"></div>
-
-        <div id="desserts-container" class="clearfix"></div>
-    </div>
-</script>
-
-<script type="text/template" id="home-meal-type-template">
-    <h2 class="<%= type %>"><%= title %></h2>
-    <div id="<%= id %>" class="recipe-list-container">
-        <ul>
-            <% _.each(collection.models, function(item) { %>
-                <li id="<%= item.get('id') %>"><%= item.get('title') %></li>
-            <% }); %>
-        </ul>
-    </div>
-</script>
-
-<script type="text/template" id="recipe-main-content-template">
-    <section class="about-this-dish clearfix">
-        <div class="small-10 push-1 container">
-            <nav class="left">
-                <ul>
-                    <li class="home">Home</li>
-                    <li class="breakfast">Breakfast</li>
-                    <li class="salad">Salads</li>
-                    <li class="soup">Soups</li>
-                    <li class="entree">Entrees</li>
-                    <li class="side">Sides</li>
-                    <li class="dessert">Desserts</li>
-                </ul>
-            </nav>
-            <img src="<%= img %>" />
-            <h3>About this dish:</h3>
-            <p><%= about %></p>
-        </div>
-    </section>
-
-    <section>
-        <div class="small-9 push-2 container">
-            <h3>Ingredients:</h3>
-            <ul class="ingredients-list">
-                <% _.each(ingredients, function(item) { %>
-                    <li><%= item %></li>
-                <% }); %>
-            </ul>
-            <h3>Instructions:</h3>
-            <p><%= instructions %></p>
-        </div>
-    </section>
-</script>
-
-<script type="text/template" id="search-results-template">
-    <h3>Search results:</h3>
-</script>
-
-
-<script src="js/vendor/underscore-min.js"></script>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-<script src="js/vendor/backbone-min.js"></script>
-<script src="js/plugins/namespace.js"></script>
-<script src="js/models/recipes-model.js"></script>
-<script src="js/collections/recipes-collection.js"></script>
-<script src="js/views/recipes-view.js"></script>
-<script src="js/routers/router.js"></script>
-<script src="js/main.js"></script>
-</body>
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
 </html>
