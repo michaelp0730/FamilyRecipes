@@ -23,11 +23,9 @@ const RecipeDetails = (props) => {
     let requestSlug = split[1];
 
     function getRecipeFromCollection(collection, slug) {
-        if (collection.length > 0 && slug !== undefined) {
+        if (collection && slug) {
             for (let i = 0; i < collection.length; i += 1) {
-                if (collection[i].slug === slug) {
-                    return collection[i];
-                }
+                if (collection[i].slug === slug) return collection[i];
             }
         }
         return null;
@@ -56,9 +54,8 @@ const RecipeDetails = (props) => {
             currentRecipe = null;
         break;
     }
-    console.log('currentRecipe: ', currentRecipe);
 
-    if (currentRecipe === null) {
+    if (!currentRecipe) {
         return <NotFound />;
     } else {
         return (
@@ -69,7 +66,7 @@ const RecipeDetails = (props) => {
                     <span className={ 'label ' + currentRecipe.type }>{ currentRecipe.type }</span>
                 </p>
                 <p className="recipe-description">{ currentRecipe.about }</p>
-                {currentRecipe.img !== undefined &&
+                {currentRecipe.img &&
                     <img className="recipe-img" src={ currentRecipe.img } alt="" role="presentation" />
                 }
                 <h3>Ingredients</h3>

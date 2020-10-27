@@ -16,19 +16,12 @@ class RecipesIndex extends React.Component {
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
 
-        this.sortedBreakfast = AlphabetizeRecipes(Breakfast);
-        this.sortedSalads = AlphabetizeRecipes(Salads);
-        this.sortedSoups = AlphabetizeRecipes(Soups);
-        this.sortedEntrees = AlphabetizeRecipes(Entrees);
-        this.sortedSides = AlphabetizeRecipes(Sides);
-        this.sortedDesserts = AlphabetizeRecipes(Desserts);
-
-        this.breakfast = this.sortedBreakfast;
-        this.salads = this.sortedSalads;
-        this.soups = this.sortedSoups;
-        this.entrees = this.sortedEntrees;
-        this.sides = this.sortedSides;
-        this.desserts = this.sortedDesserts;
+        this.breakfast = AlphabetizeRecipes(Breakfast);
+        this.salads = AlphabetizeRecipes(Salads);
+        this.soups = AlphabetizeRecipes(Soups);
+        this.entrees = AlphabetizeRecipes(Entrees);
+        this.sides = AlphabetizeRecipes(Sides);
+        this.desserts = AlphabetizeRecipes(Desserts);
         this.showSearch = false;
     }
 
@@ -46,29 +39,12 @@ class RecipesIndex extends React.Component {
         });
 
         if (this.state.showSearch) {
-            this.breakfast = this.sortedBreakfast.filter(recipe => {
-                return recipe.slug.indexOf(txt) !== -1;
-            });
-
-            this.salads = this.sortedSalads.filter(recipe => {
-                return recipe.slug.indexOf(txt) !== -1;
-            });
-
-            this.soups = this.sortedSoups.filter(recipe => {
-                return recipe.slug.indexOf(txt) !== -1;
-            });
-
-            this.entrees = this.sortedEntrees.filter(recipe => {
-                return recipe.slug.indexOf(txt) !== -1;
-            });
-
-            this.sides = this.sortedSides.filter(recipe => {
-                return recipe.slug.indexOf(txt) !== -1;
-            });
-
-            this.desserts = this.sortedDesserts.filter(recipe => {
-                return recipe.slug.indexOf(txt) !== -1;
-            });
+            this.breakfast = this.sortedBreakfast.filter(recipe => recipe.slug.indexOf(txt) !== -1);
+            this.salads = this.sortedSalads.filter(recipe => recipe.slug.indexOf(txt) !== -1);
+            this.soups = this.sortedSoups.filter(recipe => recipe.slug.indexOf(txt) !== -1);
+            this.entrees = this.sortedEntrees.filter(recipe => recipe.slug.indexOf(txt) !== -1);
+            this.sides = this.sortedSides.filter(recipe => recipe.slug.indexOf(txt) !== -1);
+            this.desserts = this.sortedDesserts.filter(recipe => recipe.slug.indexOf(txt) !== -1);
         } else {
             this.breakfast = this.sortedBreakfast;
             this.salads = this.sortedSalads;
