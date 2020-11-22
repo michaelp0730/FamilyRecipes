@@ -1,0 +1,17 @@
+<div class="recipe-details">
+  <p>
+      <a [routerLink]="['/']">Back home</a>
+  </p>
+  <h1>{{ recipe.title }}</h1>
+  <p>
+    <span class="label {{ recipe.type }}">{{ recipe.type }}</span>
+  </p>
+  <p class="recipe-description">{{ recipe.about }}</p>
+  <img src="{{ recipe.img }}" class="recipe-img" alt="" role="presentation" />
+  <h3>Ingredients</h3>
+  <ul class="ingredients">
+      <li *ngFor="let item of recipe.ingredients">{{ item }}</li>
+  </ul>
+  <h3 class="instructions-heading">Instructions</h3>
+  <p class="instructions">{{ recipe.instructions }}</p>
+</div>
