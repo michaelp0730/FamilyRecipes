@@ -1,13 +1,13 @@
 <div class="wrapper">
+  <h1>Family <span>Recipes</span></h1>
   <div class="group">
-    <h1>Family <span>Recipes</span></h1>
+    <span class="index-subheading">This is a collection of recipes from our family and friends. Lots of special stuff in here. Please enjoy and eat well!</span>
     <form id="recipes-search-form" class="recipes-search-form">
       <label for="recipes-search">Search recipes:</label>
       <input type="text" id="recipes-search" class="recipes-search" (keyup)="onKey($event)" />
+      <button type="reset" name="Clear Search" class="clear-search-btn" (click)="onReset()">Clear Search</button>
     </form>
   </div>
-
-  <p class="intro">This is a collection of recipes from our family and friends. Lots of special stuff in here. Please enjoy and eat well!</p>
 
   <app-recipes-section type="breakfast" searchValue="{{ searchVal }}"></app-recipes-section>
   <app-recipes-section type="salads" searchValue="{{ searchVal }}"></app-recipes-section>

@@ -15,4 +15,8 @@ export class IndexComponent implements OnInit {
   onKey(event: any): void {
     this.searchVal = event.target.value.toLowerCase();
   }
+
+  onReset(): void {
+    this.searchVal = '';
+  }
 }

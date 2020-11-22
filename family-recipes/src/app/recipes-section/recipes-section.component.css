@@ -8,17 +8,13 @@
 	padding: 6px 12px;
 }
 
-.heading-label::first-letter {
-	text-transform: uppercase;
-}
-
 .link-list li {
 	list-style-type: square;
 	margin: 12px 6px 12px 16px;
 }
 
 @media screen and (min-width: 768px) {
-    .link-list li {
+	.link-list li {
 		float: left;
 		margin: 16px 30px 16px 16px;
 	}
