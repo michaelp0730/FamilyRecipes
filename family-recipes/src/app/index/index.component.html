@@ -6,59 +6,13 @@
       <input type="text" id="recipes-search" class="recipes-search" />
     </form>
   </div>
+
   <p class="intro">This is a collection of recipes from our family and friends. Lots of special stuff in here. Please enjoy and eat well!</p>
 
-  <section id="section-breakfast" class="container group" aria-label="Breakfast">
-      <h2 class="label heading-label breakfast">Breakfast</h2>
-      <ul class="link-list">
-        <li *ngFor="let recipe of breakfastRecipes">
-            <a [routerLink]="['breakfast', recipe.slug]">{{ recipe.title }}</a>
-        </li>
-      </ul>
-  </section>
-
-  <section id="section-salads" class="container group" aria-label="Salads">
-    <h2 class="label heading-label salads">Salads</h2>
-    <ul class="link-list">
-      <li *ngFor="let recipe of saladRecipes">
-          <a [routerLink]="['salads', recipe.slug]">{{ recipe.title }}</a>
-      </li>
-    </ul>
-  </section>
-
-  <section id="section-soups" class="container group" aria-label="Soups">
-    <h2 class="label heading-label soups">Soups</h2>
-    <ul class="link-list">
-      <li *ngFor="let recipe of soupRecipes">
-          <a [routerLink]="['soups', recipe.slug]">{{ recipe.title }}</a>
-      </li>
-    </ul>
-  </section>
-
-  <section id="section-entrees" class="container group" aria-label="Entrees">
-    <h2 class="label heading-label salads">Entrees</h2>
-    <ul class="link-list">
-      <li *ngFor="let recipe of entreeRecipes">
-          <a [routerLink]="['entrees', recipe.slug]">{{ recipe.title }}</a>
-      </li>
-    </ul>
-  </section>
-
-  <section id="section-sides" class="container group" aria-label="Sides">
-    <h2 class="label heading-label sides">Sides</h2>
-    <ul class="link-list">
-      <li *ngFor="let recipe of sidesRecipes">
-          <a [routerLink]="['sides', recipe.slug]">{{ recipe.title }}</a>
-      </li>
-    </ul>
-  </section>
-
-  <section id="section-desserts" class="container group" aria-label="Desserts">
-    <h2 class="label heading-label desserts">Desserts</h2>
-    <ul class="link-list">
-      <li *ngFor="let recipe of dessertRecipes">
-          <a [routerLink]="['desserts', recipe.slug]">{{ recipe.title }}</a>
-      </li>
-    </ul>
-  </section>
+  <app-recipe type="breakfast"></app-recipe>
+  <app-recipe type="salads"></app-recipe>
+  <app-recipe type="soups"></app-recipe>
+  <app-recipe type="entrees"></app-recipe>
+  <app-recipe type="sides"></app-recipe>
+  <app-recipe type="desserts"></app-recipe>
 </div>
