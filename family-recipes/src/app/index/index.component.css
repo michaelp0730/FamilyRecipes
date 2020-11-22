@@ -1,0 +1,40 @@
+.recipes-search-form {
+	margin: 18px 0 12px;
+}
+
+.recipes-search {
+	display: block;
+	margin-top: 6px;
+	padding: 3px;
+	width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .intro {
+		display: inline-block;
+		width: 66%;
+    }
+
+    .group .recipes-search-form {
+		float: right;
+		width: 35%;
+	}
+}
+
+@media screen and (min-width: 960px) {
+    .wrapper {
+		margin: 0 auto;
+		padding: 0 6px;
+		width: 960px;
+    }
+
+    .intro {
+		width: 60%;
+	}
+}
+
+@media screen and (min-width: 1170px) {
+    .intro {
+		width: 50%;
+	}
+}

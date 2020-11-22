@@ -44,27 +44,6 @@ body {
 ol, ul {
 	list-style: none;
 }
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
-.container {
-	border-bottom: 1px solid #eee;
-	padding: 12px 0;
-}
-
-.row {
-	padding: 12px 0;
-}
 
 h1, h2, h3, h4, h5, h6 {
 	color: #263f47;
@@ -80,7 +59,6 @@ h5 { font-size: 18px; }
 h6 { font-size: 16px; }
 
 h1 span,
-.recipe-details h1,
 h2 span,
 h3 span,
 h4 span,
@@ -95,15 +73,6 @@ h6 span {
 	color: white;
 	display: inline-block;
 	padding: 2px 6px;
-}
-
-.heading-label {
-	font-size: medium;
-	padding: 6px 12px;
-}
-
-.heading-label::first-letter {
-	text-transform: uppercase;
 }
 
 .label.breakfast { background-color: #f9629e; }
@@ -122,44 +91,6 @@ a {
 	text-decoration: none;
 }
 
-.recipes-search-form {
-	margin: 18px 0 12px;
-}
-
-.recipes-search {
-	display: block;
-	margin-top: 6px;
-	padding: 3px;
-	width: 100%;
-}
-
-.link-list li {
-	list-style-type: square;
-	margin: 12px 6px 12px 16px;
-}
-
-.footer-main {
-	color: #999;
-	font-size: 11px;
-	margin: 12px;
-	text-align: center;
-}
-
-.ingredients {
-	margin: 12px 0;
-}
-
-.ingredients li {
-	list-style-type: square;
-	margin: 8px 0 8px 16px;
-}
-
-.instructions {
-	background-color: #eee;
-	color: black;
-	padding: 12px;
-}
-
 strong {
 	font-weight: 600;
 }
@@ -173,69 +104,6 @@ strong {
 @media screen and (min-width: 768px) {
 	.group h1 {
 		float: left;
-		width: 50%;
-	}
-
-	.group .recipes-search-form {
-		float: right;
-		width: 35%;
-	}
-
-	.link-list li {
-		float: left;
-		margin: 16px 30px 16px 16px;
-	}
-
-	.intro {
-		display: inline-block;
-		width: 66%;
-	}
-
-	.recipe-description {
-		margin: 24px 0;
-		width: 66%;
-	}
-
-	.recipe-img {
-		float: right;
-	}
-
-	.instructions-heading {
-		margin-top: 50px;
-	}
-}
-
-@media screen and (min-width: 960px) {
-	.wrapper {
-		margin: 0 auto;
-		padding: 0 6px;
-		width: 960px;
-	}
-
-	.group .recipes-search-form {
-		width: 25%;
-	}
-
-	.link-list li {
-		margin-right: 32px;
-	}
-
-	.intro {
-		width: 60%;
-	}
-
-	.recipe-details {
-		margin: 0 auto;
-		width: 768px;
-	}
-}
-
-@media screen and (min-width: 1170px) {
-	.link-list li {
-		margin: 18px 36px 18px 16px;
-	}
-
-	.intro {
 		width: 50%;
 	}
 }

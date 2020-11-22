@@ -1,0 +1,40 @@
+.recipe-details h1 {
+    color: #72bad1;
+}
+
+.ingredients {
+	margin: 12px 0;
+}
+
+.ingredients li {
+	list-style-type: square;
+	margin: 8px 0 8px 16px;
+}
+
+.instructions {
+	background-color: #eee;
+	color: black;
+	padding: 12px;
+}
+
+@media screen and (min-width: 768px) {
+    .recipe-description {
+		margin: 24px 0;
+		width: 66%;
+    }
+
+    .recipe-img {
+		float: right;
+    }
+
+    .instructions-heading {
+		margin-top: 50px;
+	}
+}
+
+@media screen and (min-width: 960px) {
+    .recipe-details {
+		margin: 0 auto;
+		width: 768px;
+	}
+}
