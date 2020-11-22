@@ -3,11 +3,12 @@
       <a [routerLink]="['/']"><span class="link-icon">&#9754;</span> Home</a>
   </p>
   <h1><span class="first-word">{{ titleFirstWord }}</span> {{ titleRemainder }}</h1>
+  <p *ngIf="recipe.subtitle" class="recipe-details-subtitle">{{ recipe.subtitle }}</p>
   <p>
     <span class="label {{ recipe.type }}">{{ recipe.type }}</span>
   </p>
   <p class="recipe-description">{{ recipe.about }}</p>
-  <img src="{{ recipe.img }}" class="recipe-img" alt="" role="presentation" />
+  <img *ngIf="recipe.img" src="{{ recipe.img }}" class="recipe-img" alt="" role="presentation" />
   <h3>Ingredients</h3>
   <ul class="ingredients">
       <li *ngFor="let item of recipe.ingredients">{{ item }}</li>

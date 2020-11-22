@@ -8,6 +8,12 @@
 	margin-top: 0.25em;
 }
 
+.recipe-details-subtitle {
+	font-size: 18px;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
 .first-word {
 	color: #72bad1;
 }
