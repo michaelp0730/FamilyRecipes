@@ -12,6 +12,8 @@ export class RecipeDetailsComponent implements OnInit {
   slug: any = '';
   recipes: any = [];
   recipe: any = {};
+  titleFirstWord: any = '';
+  titleRemainder: any = '';
 
   constructor(
     private httpClient: HttpClient,
@@ -22,13 +24,16 @@ export class RecipeDetailsComponent implements OnInit {
 
   ngOnInit(): void {
     this.route.paramMap.subscribe(params => {
-      this.type = params.get('recipeType')
+      this.type = params.get('recipeType');
       this.slug = params.get('slug');
     });
 
     this.httpClient.get(`assets/${this.type}.json`).subscribe(data => {
       this.recipes = data;
       this.recipe = this.recipes.filter((n: { slug: any; }) => n.slug === this.slug)[0];
+      const titleArr = this.recipe.title.split(' ');
+      this.titleFirstWord = titleArr.shift();
+      this.titleRemainder = titleArr.join(' ');
     });
   }
 }

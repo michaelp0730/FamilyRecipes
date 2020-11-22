@@ -104,3 +104,11 @@ strong {
 	display: table;
 	clear: both;
 }
+
+@media screen and (min-width: 960px) {
+    .wrapper {
+		margin: 0 auto;
+		padding: 0 6px;
+		width: 960px;
+    }
+}

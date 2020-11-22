@@ -1,5 +1,15 @@
+.link-icon {
+	font-size: 24px;
+	position: relative;
+	top: 2px;
+}
+
 .recipe-details h1 {
-    color: #72bad1;
+	margin-top: 0.25em;
+}
+
+.first-word {
+	color: #72bad1;
 }
 
 .ingredients {
@@ -29,12 +39,5 @@
 
     .instructions-heading {
 		margin-top: 50px;
-	}
-}
-
-@media screen and (min-width: 960px) {
-    .recipe-details {
-		margin: 0 auto;
-		width: 768px;
 	}
 }

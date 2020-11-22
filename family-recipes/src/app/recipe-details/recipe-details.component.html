@@ -1,8 +1,8 @@
-<div class="recipe-details">
+<div class="wrapper recipe-details">
   <p>
-      <a [routerLink]="['/']">Back home</a>
+      <a [routerLink]="['/']"><span class="link-icon">&#9754;</span> Home</a>
   </p>
-  <h1>{{ recipe.title }}</h1>
+  <h1><span class="first-word">{{ titleFirstWord }}</span> {{ titleRemainder }}</h1>
   <p>
     <span class="label {{ recipe.type }}">{{ recipe.type }}</span>
   </p>
