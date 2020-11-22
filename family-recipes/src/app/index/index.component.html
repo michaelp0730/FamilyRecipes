@@ -11,7 +11,7 @@
   <section id="section-breakfast" class="container group" aria-label="Breakfast">
       <h2 class="label heading-label breakfast">Breakfast</h2>
       <ul class="link-list">
-        <li *ngFor="let recipe of breakfastRecipes | async">
+        <li *ngFor="let recipe of breakfastRecipes">
             <a [routerLink]="['breakfast', recipe.slug]">{{ recipe.title }}</a>
         </li>
       </ul>
@@ -20,7 +20,7 @@
   <section id="section-salads" class="container group" aria-label="Salads">
     <h2 class="label heading-label salads">Salads</h2>
     <ul class="link-list">
-      <li *ngFor="let recipe of saladRecipes | async">
+      <li *ngFor="let recipe of saladRecipes">
           <a [routerLink]="['salads', recipe.slug]">{{ recipe.title }}</a>
       </li>
     </ul>
@@ -29,7 +29,7 @@
   <section id="section-soups" class="container group" aria-label="Soups">
     <h2 class="label heading-label soups">Soups</h2>
     <ul class="link-list">
-      <li *ngFor="let recipe of soupRecipes | async">
+      <li *ngFor="let recipe of soupRecipes">
           <a [routerLink]="['soups', recipe.slug]">{{ recipe.title }}</a>
       </li>
     </ul>
@@ -38,7 +38,7 @@
   <section id="section-entrees" class="container group" aria-label="Entrees">
     <h2 class="label heading-label salads">Entrees</h2>
     <ul class="link-list">
-      <li *ngFor="let recipe of entreeRecipes | async">
+      <li *ngFor="let recipe of entreeRecipes">
           <a [routerLink]="['entrees', recipe.slug]">{{ recipe.title }}</a>
       </li>
     </ul>
@@ -47,7 +47,7 @@
   <section id="section-sides" class="container group" aria-label="Sides">
     <h2 class="label heading-label sides">Sides</h2>
     <ul class="link-list">
-      <li *ngFor="let recipe of sidesRecipes | async">
+      <li *ngFor="let recipe of sidesRecipes">
           <a [routerLink]="['sides', recipe.slug]">{{ recipe.title }}</a>
       </li>
     </ul>
@@ -56,7 +56,7 @@
   <section id="section-desserts" class="container group" aria-label="Desserts">
     <h2 class="label heading-label desserts">Desserts</h2>
     <ul class="link-list">
-      <li *ngFor="let recipe of dessertRecipes | async">
+      <li *ngFor="let recipe of dessertRecipes">
           <a [routerLink]="['desserts', recipe.slug]">{{ recipe.title }}</a>
       </li>
     </ul>
