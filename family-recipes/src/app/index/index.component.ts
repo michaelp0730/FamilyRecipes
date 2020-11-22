@@ -28,5 +28,16 @@ export class IndexComponent implements OnInit {
     this.entreeRecipes = EntreesJson;
     this.sidesRecipes = SidesJson;
     this.dessertRecipes = DessertsJson;
+
+    this.sortRecipes(this.breakfastRecipes);
+    this.sortRecipes(this.saladRecipes);
+    this.sortRecipes(this.soupRecipes);
+    this.sortRecipes(this.entreeRecipes);
+    this.sortRecipes(this.sidesRecipes);
+    this.sortRecipes(this.dessertRecipes);
+  }
+
+  sortRecipes(recipes: any[]): void {
+    recipes.sort((a, b) => a.title > b.title ? 1 : -1);
   }
 }
