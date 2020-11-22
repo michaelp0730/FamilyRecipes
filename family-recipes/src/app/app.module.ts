@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { IndexComponent } from './index/index.component';
 import { RecipesSectionComponent } from './recipes-section/recipes-section.component';
 import { RecipeDetailsComponent } from './recipe-details/recipe-details.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { RecipeDetailsComponent } from './recipe-details/recipe-details.componen
     IndexComponent,
     RecipesSectionComponent,
     RecipeDetailsComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

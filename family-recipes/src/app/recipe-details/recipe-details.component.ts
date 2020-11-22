@@ -29,7 +29,6 @@ export class RecipeDetailsComponent implements OnInit {
     this.httpClient.get(`assets/${this.type}.json`).subscribe(data => {
       this.recipes = data;
       this.recipe = this.recipes.filter((n: { slug: any; }) => n.slug === this.slug)[0];
-      console.log('recipe: ', this.recipe);
     });
   }
 }
