@@ -18,6 +18,10 @@
 	color: #72bad1;
 }
 
+.recipe-img {
+	max-width: 100%;
+}
+
 .ingredients {
 	margin: 12px 0;
 }
@@ -41,9 +45,22 @@
 
     .recipe-img {
 		float: right;
+		max-width: 50%;
     }
 
     .instructions-heading {
 		margin-top: 50px;
+	}
+}
+
+@media screen and (min-width: 960px) {
+	.recipe-img {
+		max-width: 40%;
+	}
+}
+
+@media screen and (min-width: 1280px) {
+	.recipe-img {
+		max-width: 33%;
 	}
 }
