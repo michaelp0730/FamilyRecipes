@@ -1,4 +1,4 @@
-<section id="section-{{ type }}" class="container group">
+<section *ngIf="recipes.length" id="section-{{ type }}" class="container group">
   <h2 class="label heading-label {{ type }}">{{ type }}</h2>
   <ul class="link-list">
     <li *ngFor="let recipe of recipes">
