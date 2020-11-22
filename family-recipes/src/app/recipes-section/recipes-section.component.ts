@@ -2,11 +2,11 @@ import { Component, OnInit, Input } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 
 @Component({
-  selector: 'app-recipe',
-  templateUrl: './recipe.component.html',
-  styleUrls: ['./recipe.component.css']
+  selector: 'app-recipes-section',
+  templateUrl: './recipes-section.component.html',
+  styleUrls: ['./recipes-section.component.css']
 })
-export class RecipeComponent implements OnInit {
+export class RecipesSectionComponent implements OnInit {
   @Input() type: string;
   recipes: any = [];
 
