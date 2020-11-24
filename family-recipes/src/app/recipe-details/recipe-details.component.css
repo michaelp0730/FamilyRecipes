@@ -34,12 +34,14 @@
 .instructions {
 	background-color: #eee;
 	color: black;
-	padding: 12px;
+	padding: 0 12px 12px;
 }
 
 .step-num {
+	display: inline-block;
 	font-size: large;
 	font-style: italic;
+	padding-top: 12px;
 }
 
 @media screen and (min-width: 768px) {
