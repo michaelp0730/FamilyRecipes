@@ -14,6 +14,7 @@ export class RecipeDetailsComponent implements OnInit {
   recipe: any = {};
   titleFirstWord: any = '';
   titleRemainder: any = '';
+  instructionsArr: any = [];
 
   constructor(
     private httpClient: HttpClient,
@@ -34,6 +35,7 @@ export class RecipeDetailsComponent implements OnInit {
       const titleArr = this.recipe.title.split(' ');
       this.titleFirstWord = titleArr.shift();
       this.titleRemainder = titleArr.join(' ');
+      this.instructionsArr = this.recipe.instructions.split('##');
     });
   }
 }

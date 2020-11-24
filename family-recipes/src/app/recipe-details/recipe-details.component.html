@@ -14,5 +14,11 @@
       <li *ngFor="let item of recipe.ingredients">{{ item }}</li>
   </ul>
   <h3 class="instructions-heading">Instructions</h3>
-  <p class="instructions">{{ recipe.instructions }}</p>
+  <div class="instructions">
+    <p *ngFor="let text of instructionsArr; index as stepNum">
+      <span class="step-num">Step {{ stepNum + 1 }}:</span>
+      <br />
+      {{ text }}
+    </p>
+  </div>
 </div>

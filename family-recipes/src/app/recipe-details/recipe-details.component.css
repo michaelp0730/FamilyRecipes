@@ -37,6 +37,11 @@
 	padding: 12px;
 }
 
+.step-num {
+	font-size: large;
+	font-style: italic;
+}
+
 @media screen and (min-width: 768px) {
     .recipe-description {
 		margin: 24px 0;
