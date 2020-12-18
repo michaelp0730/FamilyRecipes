@@ -1,4 +1,7 @@
 <?
+    $page_title = 'Pellegrini Page | Family Recipes';
+    $css_path = './app.css';
+
     $breakfast_file = file_get_contents("./json/breakfast.json");
     $salads_file = file_get_contents("./json/salads.json");
     $soups_file = file_get_contents("./json/soups.json");
@@ -13,8 +16,10 @@
     $sides_json = json_decode($sides_file, true);
     $desserts_json = json_decode($desserts_file, true);
 
-    $page_title = 'Pellegrini Page | Family Recipes';
-    $css_path = './app.css';
+    if( isset($_GET['recipes-search']) ) {
+        $search_val = htmlentities($_GET['recipes-search']);
+    }
+
     include './includes/head.php';
 ?>
 
@@ -23,12 +28,20 @@
         <h1>Family <span>Recipes</span></h1>
         <div class="group">
             <span class="index-subheading">This is a collection of recipes from our family and friends. Lots of special stuff in here. Please enjoy and eat well!</span>
-            <form id="recipes-search-form" class="recipes-search-form">
+            <form id="recipes-search-form" class="recipes-search-form" action="" method="get">
                 <label for="recipes-search">Search recipes:</label>
-                <input type="text" id="recipes-search" class="recipes-search" />
-                <button type="reset" name="Clear Search" class="clear-search-btn">Clear Search</button>
+                <input type="text" id="recipes-search" class="recipes-search" name="recipes-search" placeholder="<?= $search_val ?>" />
+                <button type="submit">Search</button>
             </form>
         </div>
+
+        <?
+            if ($search_val) {
+        ?>
+            <h2>Search Results:</h2>
+        <?
+            }
+        ?>
 
         <section id="section-breakfast" class="container group">
             <h2 class="breakfast heading-label label">Breakfast</h2>
@@ -36,11 +49,11 @@
                 <?
                     foreach ($breakfast_json as $key => $breakfast_value) {
                 ?>
-                    <li>
-                        <a href="./recipes/?slug=<?php echo $breakfast_value['slug'] ?>&type=<?php echo $breakfast_value['type'] ?>">
-                            <?php echo $breakfast_value['title'] ?>
-                        </a>
-                    </li>
+                        <li>
+                            <a href="./recipes/?slug=<?= $breakfast_value['slug'] ?>&type=<?= $breakfast_value['type'] ?>">
+                                <?= $breakfast_value['title'] ?>
+                            </a>
+                        </li>
                 <?
                     }
                 ?>
@@ -54,8 +67,8 @@
                     foreach ($salads_json as $key => $salad_value) {
                 ?>
                     <li>
-                        <a href="./recipes/?slug=<?php echo $salad_value['slug'] ?>&type=<?php echo $salad_value['type'] ?>">
-                            <?php echo $salad_value['title'] ?>
+                        <a href="./recipes/?slug=<?= $salad_value['slug'] ?>&type=<?= $salad_value['type'] ?>">
+                            <?= $salad_value['title'] ?>
                         </a>
                     </li>
                 <?
@@ -71,8 +84,8 @@
                 foreach ($soups_json as $key => $soup_value) {
             ?>
                 <li>
-                    <a href="./recipes/?slug=<?php echo $soup_value['slug'] ?>&type=<?php echo $soup_value['type'] ?>">
-                        <?php echo $soup_value['title'] ?>
+                    <a href="./recipes/?slug=<?= $soup_value['slug'] ?>&type=<?= $soup_value['type'] ?>">
+                        <?= $soup_value['title'] ?>
                     </a>
                 </li>
             <?
@@ -88,8 +101,8 @@
                     foreach ($entrees_json as $key => $entree_value) {
                 ?>
                     <li>
-                        <a href="./recipes/?slug=<?php echo $entree_value['slug'] ?>&type=<?php echo $entree_value['type'] ?>">
-                            <?php echo $entree_value['title'] ?>
+                        <a href="./recipes/?slug=<?= $entree_value['slug'] ?>&type=<?= $entree_value['type'] ?>">
+                            <?= $entree_value['title'] ?>
                         </a>
                     </li>
                 <?
@@ -105,8 +118,8 @@
                     foreach ($sides_json as $key => $side_value) {
                 ?>
                     <li>
-                        <a href="./recipes/?slug=<?php echo $side_value['slug'] ?>&type=<?php echo $side_value['type'] ?>">
-                            <?php echo $side_value['title'] ?>
+                        <a href="./recipes/?slug=<?= $side_value['slug'] ?>&type=<?= $side_value['type'] ?>">
+                            <?= $side_value['title'] ?>
                         </a>
                     </li>
                 <?
@@ -122,8 +135,8 @@
                     foreach ($desserts_json as $key => $dessert_value) {
                 ?>
                     <li>
-                        <a href="./recipes/?slug=<?php echo $dessert_value['slug'] ?>&type=<?php echo $dessert_value['type'] ?>">
-                            <?php echo $dessert_value['title'] ?>
+                        <a href="./recipes/?slug=<?= $dessert_value['slug'] ?>&type=<?= $dessert_value['type'] ?>">
+                            <?= $dessert_value['title'] ?>
                         </a>
                     </li>
                 <?
