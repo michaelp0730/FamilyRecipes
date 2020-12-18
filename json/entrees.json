@@ -2,7 +2,7 @@
 	{
 		"slug": "jasons-rosemary-ribeye",
 		"title": "Jason's Rosemary Ribeye",
-		"type": "entree",
+		"type": "entrees",
 		"about": "This is the steak that Chef Jason Wilson taught me to make for Jessica on the night that I proposed. Although I'm not normally a big ribeye fan, I will always associate this dish with that night. The rosemary adds a really nice herbacious flavor to the dish that Jessica and I have come to enjoy on our steaks ever since then.",
 		"ingredients": [
 			"2 Bone-in Ribeye steaks (14 - 16 oz each)",
@@ -22,7 +22,7 @@
 	{
 		"slug": "laurels-turkey-meatloaf",
 		"title": "Laurel's Turkey Meatloaf",
-		"type": "entree",
+		"type": "entrees",
 		"about": "Our good friend Laurel gave us this recipe. It originally came from Laurel's sister Aubrey. It's a nice healthy take on traditional meatloaf, but uses ground turkey so its much lower in fat than ground beef. Enjoy!",
 		"ingredients": [
 			"1 pkg ground turkey meat (1-1.25 lbs.)",
@@ -41,7 +41,7 @@
 	{
 		"slug": "laurens-crockpot-lasagna",
 		"title": "Lauren's Lasagna - Crockpot Style",
-		"type": "entree",
+		"type": "entrees",
 		"about": "This recipe came from Jessica's cousin Lauren, who shared it with us after Ava was born. It's a crockpot dish that's easy to make and perfect for large groups, or cold winter days. I'm sure we'll be making it soon.",
 		"ingredients": [
 			"1 pound (16 ounces) ground beef (or ground turkey)",
@@ -62,7 +62,7 @@
 	{
 		"slug": "brendas-chicken-and-asparagus",
 		"title": "Brenda's Chicken & Asparagus",
-		"type": "entree",
+		"type": "entrees",
 		"about": "This is one of Jim and Brenda's favorite entrees.",
 		"ingredients": [
 			"1 1/2 lbs. fresh asparagus spears (you can use canned if not in season) or broccoli",
@@ -82,7 +82,7 @@
 	{
 		"slug": "clam-linguine",
 		"title": "Clam Linguine",
-		"type": "entree",
+		"type": "entrees",
 		"about": "This is Uncle Jim and Aunt Brenda's favorite linguine with clams recipe. I'm going to have to make this soon because I love that dish.",
 		"ingredients": [
 			"2 – 3 cans of chopped clams",
@@ -104,7 +104,7 @@
 	{
 		"slug": "jims-italian-beef-pasta",
 		"title": "Jim's Italian Beef Pasta",
-		"type": "entree",
+		"type": "entrees",
 		"about": "This is another of Uncle Jim and Aunt Brenda's favorite entrees.",
 		"ingredients": [
 			"1 1/4 lbs. Boneless sirloin steak or boneless chuck steak cut into ½-inch by 1-inch pieces 1 T. vegetable oil",
@@ -123,7 +123,7 @@
 	{
 		"slug": "jims-garlic-pasta",
 		"title": "Jim's Garlic Pasta",
-		"type": "entree",
+		"type": "entrees",
 		"about": "From Jim and Brenda: For a twist on pasta with garlic and oil, try sprinkling toasted fresh bread crumbs over individual bowls, but prepare them before proceeding with the pasta recipe. We like the crunch of Maldon sea salt flakes for this dish, but ordinary table salt is fine as well. Given the large amount of garlic in this recipe, you may want to mince it in a food processor. A garlic press or chef’s knife are other options.",
 		"ingredients": [
 			"1 pound spaghetti",
@@ -140,7 +140,7 @@
 	{
 		"slug": "savory-strawberry-salmon",
 		"title": "Savory Strawberry Salmon",
-		"type": "entree",
+		"type": "entrees",
 		"about": "This is another one of Jim and Brenda's favorite seafood dishes. I love savory dishes that include fresh fruit so this is one I'm looking forward to making.",
 		"ingredients": [
 			"2 pound salmon filet",
@@ -162,7 +162,7 @@
 	{
 		"slug": "laurens-crockpot-carnitas",
 		"title": "Lauren's Crockpot Carnitas",
-		"type": "entree",
+		"type": "entrees",
 		"about": "This is Lauren's recipe for making Carnitas in the crockpot. Carnitas is a classic Mexican recipe for making slow-roasted pork. They're great for making tacos, burritos, or just about any other Mexican dish.",
 		"ingredients": [
 			"2 pork tenderloins (about 1 pound each)",
@@ -178,7 +178,7 @@
 	{
 		"slug": "brendas-creamy-chicken-with-black-beans",
 		"title": "Brenda's Creamy Chicken with Black Beans",
-		"type": "entree",
+		"type": "entrees",
 		"about": "This is a crockpot dish that was submitted by Uncle Jim and Aunt Brenda.",
 		"ingredients": [
 			"3 boneless chicken breasts, cut in 1 - 2 inch cubes",
@@ -195,7 +195,7 @@
 	{
 		"slug": "carols-hunters-casserole",
 		"title": "Carol's Hunters Casserole",
-		"type": "entree",
+		"type": "entrees",
 		"about": "This is one of Aunt Carol's favorite dishes. She made this for us when Elise was born and we loved it. Even Ava couldn't get enough. To this day she's never liked chicken as much as she did with this dish.",
 		"ingredients": [
 			"Boneless skinless chicken breast - cut into small pieces",
@@ -215,7 +215,7 @@
 	{
 		"slug": "oven-fried-chicken",
 		"title": "Oven Fried Chicken",
-		"type": "entree",
+		"type": "entrees",
 		"about": "This is a dish we found on the Food Network's website. We love eating fried chicken but its normally pretty unhealthy and difficult to make at home because of all the oil it requires. This dish is baked so its much better for you. Hope you enjoy!",
 		"ingredients": [
 			"2 chickens (3 pounds each), cut in 8 serving pieces",
@@ -230,7 +230,7 @@
 	{
 		"slug": "beef-stroganoff",
 		"title": "Beef Stroganoff",
-		"type": "entree",
+		"type": "entrees",
 		"about": "This recipe came from an old friend of Jessica's from high school.",
 		"ingredients": [
 			"1 1/4 pound cubed beef stew meat",
@@ -248,7 +248,7 @@
 	{
 		"slug": "darrins-chicken-stroganoff",
 		"title": "Darrin's Chicken Stroganoff",
-		"type": "entree",
+		"type": "entrees",
 		"about": "This recipe was submitted by Chris Rudd. Here's what she said \"Here is a recipe created by one of my favorite cousins on my dads side.  His name is Darrin Kelly Ketter. Darrin graduated from Marion High School, Marion Iowa and from Kansas City Art Institue. He has managed large historic mansions and large apartment complexes, free lanced as an artist and began a career in real estate (2004). He and his friend Christian reside in Berkeley California.\"",
 		"ingredients": [
 			"8 oz. dried egg noodles or 16 oz. fresh egg noodles",
@@ -271,7 +271,7 @@
 	{
 		"slug": "grandma-clute-meatloaf",
 		"title": "Chris's Grandma Clute Meatloaf",
-		"type": "entree",
+		"type": "entrees",
 		"about": "This recipe came from Rick and Chris. They said this was Grandpa Rudd's favorite so I'm sure it's good. Enjoy!",
 		"ingredients": [
 			"2 eggs",
@@ -291,7 +291,7 @@
 	{
 		"slug": "ricks-goulash",
 		"title": "Rick's Goulash",
-		"type": "entree",
+		"type": "entrees",
 		"about": "This is Rick's famous Goulash recipe. I say famous because I've heard Jessica talk about it many times. Looking forward to trying it out!",
 		"ingredients": [
 			"1.5 lbs. Hamburger",
@@ -311,7 +311,7 @@
 	{
 		"slug": "gigis-spaghetti-sauce",
 		"title": "Gigi's Spaghetti Sauce",
-		"type": "entree",
+		"type": "entrees",
 		"about": "This is the recipe that Gigi taught my Mom many years ago. I grew up on this dish and it will always be the perfect spaghetti sauce in my mind. Gigi was famous for never cooking with a recipe and always making due with whatever she had to work with. She always used to tell us, 'You cook with what you have.' I try to apply that sentiment with every meal I make, and I'm sure Jessica is already tired of hearing me say it. Even in her mid 80's, Gigi was still making dinner for a dozen people in her little kitchen in Aberdeen. Although I only caught the tail end of those years, I vividly remember how special of a time it was. Lots of great stories, big personalities, and amazing food.",
 		"ingredients": [
 			"1/2 lb. extra lean ground beef",
@@ -336,7 +336,7 @@
 	{
 		"slug": "elmers-veal-and-potatoes",
 		"title": "Elmer's Veal & Potatoes",
-		"type": "entree",
+		"type": "entrees",
 		"about": "This is one of my Dad's favorite dishes. I remember coming home from Karate at night and having this for dinner so many times. This is definitely where I got my love for veal.",
 		"ingredients": [
 			"Thin veal cutlets, cut into small pieces",
@@ -352,7 +352,7 @@
 	{
 		"slug": "nanas-beef-and-biscuits-casserole",
 		"title": "Nana's Beef & Biscuits Casserole",
-		"type": "entree",
+		"type": "entrees",
 		"about": "This was one of my Grandma's (Nana) favorite dishes. Feeding a family of 7 was no easy task and this was one of her staples.",
 		"ingredients": [
 			"1 package of biscuits",
@@ -371,7 +371,7 @@
 	{
 		"slug": "gigis-tripe",
 		"title": "Gigi's Tripe",
-		"type": "entree",
+		"type": "entrees",
 		"about": "Although tripe isn't the most popular dish today, back in the old days it was a crowd favorite. This recipe of Gigi's was printed in the Italian Lodge of Aberdeen's cookbook. It was credited to Norena Pellegrini, which is funny because I always thought she spelled it Norina. Either way she will always be Gigi to me. This picture is of her and Kallan when he was a little boy, at Sydney's house, Easter 2001.",
 		"ingredients": [
 			"5 lbs. honeycomb tripe",
@@ -396,7 +396,7 @@
 	{
 		"slug": "moms-scallop-asparagus-risotto",
 		"title": "Rita's Scallop Asparagus Risotto",
-		"type": "entree",
+		"type": "entrees",
 		"about": "This is one of my Mom's favorite recipes. She's made it for me so many times and I've always loved it. Highly recommended.",
 		"ingredients": [
 			"1 cup Arborio rice",
@@ -417,7 +417,7 @@
 	{
 		"slug": "moms-pot-roast",
 		"title": "Rita's Pot Roast",
-		"type": "entree",
+		"type": "entrees",
 		"about": "This is one of my favorite dishes my Mom makes, and its a recipe that I specifically asked for. I've never been able to make pot roast as good as my Mom's so I hope everyone enjoys this recipe.",
 		"ingredients": [
 			"4-6 pounds chuck roast",
@@ -437,7 +437,7 @@
 	{
 		"slug": "sweet-n-spicy-pork-chops",
 		"title": "Sweet 'n Spicy Pork Chops",
-		"type": "entree",
+		"type": "entrees",
 		"about": "This is a dish that we just made on one of our 'Football Sundays' at home. It's a crockpot dish that's super easy to make, and we actually used frozen pork chops, which turned out to be perfectly fine because you're slow cooking them for so long. Jessica said it was one of her favorite meals we'd had in a long time, which was quite a compliment considering she doesn't normally like pork chops. We served it with sautéed veggies and fried polenta but you can use pretty much anything you like. Hope you enjoy!",
 		"ingredients": [
 			"2-4 lean pork chops",
@@ -460,7 +460,7 @@
 	{
 		"slug": "normas-ravioli",
 		"title": "Norma's Ravioli",
-		"type": "entree",
+		"type": "entrees",
 		"about": "This is one of my all-time favorite dishes. It's been made over the years by Gigi, Aunt Norma, and Sydney, but for me it will always bring back memories of Christmas dinner at Norma's house. There are a lot of family stories that go with this dish. My favorite memories are of my Dad searching all over Norma's kitchen/house for evidence of her making Ravioli. She would always deny it and say she didn't have time to do it this year, but somehow those ravs would always make their way to the dinner table. A word of caution for anyone that wants to make this dish: it takes several days to make. The pasta is made by hand from scratch, and so is the meat filling. It's a ton of work, but I can't wait to do on my own sometime soon. Thank you so much to Sydney for giving me this recipe. This site wouldn't be complete without it.",
 		"ingredients": [
 			"Ingredients for homemade pasta",
@@ -490,7 +490,7 @@
 	{
 		"slug": "chicken-enchiladas-suizas",
 		"title": "Chicken Enchiladas Suizas",
-		"type": "entree",
+		"type": "entrees",
 		"about": "This dish was submitted by Jessica's cousin Heather. It's one of her favorites, and anything with the word enchilada in it gets a thumbs up from me, so I'm looking forward to trying it out very soon.",
 		"ingredients": [
 			"6 boneless skinless chicken breast halves",
@@ -519,7 +519,7 @@
 	{
 		"slug": "heathers-southwestern-lasagna",
 		"title": "Heather's Southwestern Lasagna",
-		"type": "entree",
+		"type": "entrees",
 		"about": "Jessica's cousin Heather submitted this recipe. Looks like a fun take on an old classic. I love lasagna and Tex-Mex so this looks great.",
 		"ingredients": [
 			"2 Tbsp. olive oil",
@@ -545,7 +545,7 @@
 	{
 		"slug": "jims-spaghetti-carbonara",
 		"title": "Jim's Spaghetti Carbonara",
-		"type": "entree",
+		"type": "entrees",
 		"about": "This is Jim and Brenda's Spaghetti Carbonara recipe.",
 		"ingredients": [
 			"1/2 lb chopped bacon or pancetta",
@@ -562,7 +562,7 @@
 	{
 		"slug": "sherrys-hamburger-casserole",
 		"title": "Sherry's Hamburger Casserole",
-		"type": "entree",
+		"type": "entrees",
 		"about": "Amy submitted this recipe on behalf of her Mom. Originally known as 'Delicious Hamburger Casserole', this is one of everyone's favorite dishes by Sherry. Its easy to make and can be frozen if desired.  It is also very good reheated.",
 		"ingredients": [
 			"1 and 1/2 lbs ground beef, browned and drained",
@@ -582,7 +582,7 @@
 	{
 		"slug": "toms-cajun-pot-roast",
 		"title": "Tom's Cajun Pot Roast",
-		"type": "entree",
+		"type": "entrees",
 		"about": "Tom loves anything Cajun and this slow cooker recipe is easy and good.",
 		"ingredients": [
 			"1 boneless beef chuck roast ( 2 - 2 1/2 pounds)",
@@ -602,7 +602,7 @@
 		"title": "Vegan Eggplant Parmesan",
 		"subtitle": "with Garlicky Tomato Sauce and Lemon Basil Couscous",
 		"img": "https://pellegrinipage.com/recipes/img/vegan-eggplant-parmesan.jpg",
-		"type": "entree",
+		"type": "entrees",
 		"about": "One of Jessica and Michael's faovrite dishes from Purple Carrot",
 		"ingredients": [
 			"1 eggplant",

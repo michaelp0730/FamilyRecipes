@@ -2,7 +2,7 @@
 	{
 		"slug": "chris-party-dip",
 		"title": "Chris' Party Dip",
-		"type": "side",
+		"type": "sides",
 		"about": "This is one of Rick and Chris' neighborhood party dip recipes that originally came from their neighbor Melissa. It's easy to make, tastes great, and its an Iowa Football staple dish. It's great for parties because you can leave it warm in the crockpot all day.",
 		"ingredients": [
 			"2 1/2 cups cooked chicken (shredded)",
@@ -18,7 +18,7 @@
 	{
 		"slug": "blue-cheese-scalloped-potatoes",
 		"title": "Blue-Cheese Scalloped Potatoes",
-		"type": "side",
+		"type": "sides",
 		"about": "This recipe came from Uncle Jim and Aunt Brenda. This is one of their favorite side dishes.",
 		"ingredients": [
 			"3-Lbs. Potatoes (Yukon gold) if available",
@@ -38,7 +38,7 @@
 	{
 		"slug": "sweet-n-sour-green-beans",
 		"title": "Sweet 'n Sour Green Beans",
-		"type": "side",
+		"type": "sides",
 		"about": "This is one of Uncle Jim and Aunt Brenda's favorite side dishes.",
 		"ingredients": [
 			"Green Beans (fresh or canned)",
@@ -55,7 +55,7 @@
 	{
 		"slug": "amys-bubble-bread",
 		"title": "Amy's Bubble Bread",
-		"type": "side",
+		"type": "sides",
 		"about": "This dish was a family tradition for Jessica and Amy. You couldn't have Thanksgiving dinner without this bread, and it has become one of Jessica's favorite things to make. Here's the description of the dish, sent by Amy: That recipe came out of a signed cook book from the editor of the food page with the Minneapolis Tribune.  I worked with her daughter-in-law at the hospital.  I began making that bread even before Jessica was born and it was a favorite.  So as the story goes, it became a staple at most of our holiday gatherings.",
 		"ingredients": [
 			"1 loaf frozen bread dough",
@@ -71,7 +71,7 @@
 	{
 		"slug": "michaels-roasted-potatoes",
 		"title": "Michael's Roasted Potatoes",
-		"type": "side",
+		"type": "sides",
 		"about": "These are the roasted potatoes that I make for approximately every other meal. It can be part of breakfast, lunch, or dinner depending on what you serve with it. When done right they come out golden, crispy, and delicious.",
 		"ingredients": [
 			"Red, Purple, or Fingerling potatoes",
@@ -87,7 +87,7 @@
 	{
 		"slug": "quinoa-with-toasted-pine-nuts",
 		"title": "Quinoa with Toasted Pine Nuts",
-		"type": "side",
+		"type": "sides",
 		"about": "This is a nice healthy side dish that was submitted by Jessica's cousin Heather.",
 		"ingredients": [
 			"1 cup uncooked quinoa",
@@ -108,7 +108,7 @@
 	{
 		"slug": "nanas-scalloped-corn",
 		"title": "Nana's Scalloped Corn",
-		"type": "side",
+		"type": "sides",
 		"about": "This is a dish that Nana made for so many family meals. Thank you to Jim and Brenda for supplying this recipe.",
 		"ingredients": [
 			"1 egg slightly beaten",
@@ -124,7 +124,7 @@
 	{
 		"slug": "sweet-potato-biscuits",
 		"title": "Sweet Potato Biscuits",
-		"type": "side",
+		"type": "sides",
 		"about": "This is another recipe from Uncle Jim and Aunt Brenda",
 		"ingredients": [
 			"2 cups self-rising flour",
@@ -143,7 +143,7 @@
 	{
 		"slug": "brendas-veggie-bars",
 		"title": "Brenda's Veggie Bars",
-		"type": "side",
+		"type": "sides",
 		"about": "This is another recipe from Jim and Brenda.",
 		"ingredients": [
 			"2 tubes Pillsbury Crescent Rolls",
@@ -162,7 +162,7 @@
 	{
 		"slug": "amys-spinach-dip",
 		"title": "Amy's Spinach Dip",
-		"type": "side",
+		"type": "sides",
 		"about": "From Amy: This is a recipe that I used to make and take to parties or holiday events at other people's houses.",
 		"ingredients": [
 			"1 quart mayo",
@@ -181,7 +181,7 @@
 	{
 		"slug": "tex-mex-dip",
 		"title": "Tex-Mex Dip",
-		"type": "side",
+		"type": "sides",
 		"about": "From Amy: This is another recipe that is good for parties and holidays as it makes a large portion. I make it on a large round platter or 12 inch pizza pan.  It has three layers.",
 		"ingredients": [
 			"Bottom layer",
@@ -203,7 +203,7 @@
 	{
 		"slug": "amys-party-potatoes",
 		"title": "Amy's Party Potatoes",
-		"type": "side",
+		"type": "sides",
 		"about": "From Amy: This is a recipe that came to me from another RN at the hospital.  It can be altered with several different ingredients and I used to make this at the holidays.  Just like Bubble Bread this became a tradition of sorts.",
 		"ingredients": [
 			"8-10 peeled potatoes",
@@ -218,7 +218,7 @@
 	{
 		"slug": "amys-cheese-ball",
 		"title": "Amy's Cheese Ball",
-		"type": "side",
+		"type": "sides",
 		"about": "From Amy: I call any cheese and sour cream my two favorite food groups so this recipe is one that I like and used to make for parties and holidays.",
 		"ingredients": [
 			"7 oz sharp cheddar cheese, shredded",
@@ -233,7 +233,7 @@
 	{
 		"slug": "cheddar-cheese-potatoes",
 		"title": "Cheddar Cheese Potatoes",
-		"type": "side",
+		"type": "sides",
 		"about": "This recipe came from Amy. Its a quick and easy side dish that you can serve at just about any meal.",
 		"ingredients": [
 			"2 lbs frozen hash browns, thawed",
@@ -248,7 +248,7 @@
 	{
 		"slug": "amys-spinach-artichoke-dip",
 		"title": "Amy's Spinach Artichoke Dip",
-		"type": "side",
+		"type": "sides",
 		"about": "This is one of Amy's favorite dips for parties and get-togethers.",
 		"ingredients": [
 			"2 c mozzarella cheese, divided",
@@ -266,7 +266,7 @@
 	{
 		"slug": "chocolate-zucchini-bread",
 		"title": "Chocolate Zucchini Bread",
-		"type": "side",
+		"type": "sides",
 		"about": "From Amy: 'This recipe came from a home care nurse that I worked with years ago. She was always bringing in treats for us to enjoy.'",
 		"ingredients": [
 			"3 eggs",

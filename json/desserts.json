@@ -2,7 +2,7 @@
 	{
 		"slug": "butterscotch-banana-bread-oatmeal-bites",
 		"title": "Butterscotch Banana Bread Oatmeal Bites",
-		"type": "dessert",
+		"type": "desserts",
 		"about": "Melanie found this recipe on her favorite blog - www.pbfingers.com. It's a nice healthy take on dessert. Perfect for kids or adults.",
 		"ingredients": [
 			"2 very ripe bananas, mashed",
@@ -17,7 +17,7 @@
 	{
 		"slug": "brendas-chocolate-mint-cookies",
 		"title": "Brenda's Chocolate Mint Cookies",
-		"type": "dessert",
+		"type": "desserts",
 		"about": "Brenda has been making these cookies for years and they've always been my favorite. The texture of the mint that has melted into the chocolate cookie is amazing. If you like chocolate mint you have to try these.",
 		"ingredients": [
 			"3/4 cup butter or margarine",
@@ -37,7 +37,7 @@
 	{
 		"slug": "brendas-peanut-butter-kiss-cookies",
 		"title": "Brenda's Peanut Butter Kiss Cookies",
-		"type": "dessert",
+		"type": "desserts",
 		"about": "This is another one of Brenda's classics. It's hard to go wrong with chocolate kisses over peanut butter cookies. Enjoy.",
 		"ingredients": [
 			"1 - 18 oz Jar Peanut Butter (Jiff)",
@@ -51,7 +51,7 @@
 	{
 		"slug": "brendas-peanut-butter-cake",
 		"title": "Brenda's Peanut Butter Cake",
-		"type": "dessert",
+		"type": "desserts",
 		"about": "This is a cake that Aunt Brenda first made for Jim's dad back in 1986. He loved it and the recipe has stuck around ever since.",
 		"ingredients": [
 			"2 1/2 cups of Nestle Peanut Butter morsels",
@@ -76,7 +76,7 @@
 	{
 		"slug": "avas-apple-crisp",
 		"title": "Ava's Apple Crisp",
-		"type": "dessert",
+		"type": "desserts",
 		"about": "This is the dessert Jessica made on Thanksgiving night, 2011. She ended up going into labor that night and the next day our sweet Ava was born. Its a great dessert that will always have sentimental value for us.",
 		"ingredients": [
 			"1 cup all-purpose flour",
@@ -98,7 +98,7 @@
 	{
 		"slug": "chocolate-lava-cake",
 		"title": "Chocolate Lava Cake",
-		"type": "dessert",
+		"type": "desserts",
 		"about": "This is a recipe we've been holding onto for some time now. It looks like a perfect holiday dish so we're going to have to make it soon.",
 		"ingredients": [
 			"1 package devils food cake mix",
@@ -115,7 +115,7 @@
 	{
 		"slug": "heathers-crunchy-carmel-apple-pie",
 		"title": "Heather's Crunchy Carmel Apple Pie",
-		"type": "dessert",
+		"type": "desserts",
 		"about": "This recipe came from Jessica's cousin Heather. Apple pie is one of my all-time favs so I can't wait to try this.",
 		"ingredients": [
 			"1 pastry crust for a deep dish 9 inch pie",
@@ -139,7 +139,7 @@
 	{
 		"slug": "festive-fudge",
 		"title": "Festive Fudge",
-		"type": "dessert",
+		"type": "desserts",
 		"about": "This recipe came from Uncle Jim and Aunt Brenda. Fudge was always my Dad's favorite.",
 		"ingredients": [
 			"3 cups (18 oz) semi-sweet chocolate chips",
@@ -154,7 +154,7 @@
 	{
 		"slug": "sugar-crusted-meltaways",
 		"title": "Sugar-Crusted Meltaways",
-		"type": "dessert",
+		"type": "desserts",
 		"about": "This is one of Uncle Jim and Aunt Brenda's favorite dessert recipes.",
 		"ingredients": [
 			"1 tbsp grated orange peel",
@@ -175,7 +175,7 @@
 	{
 		"slug": "brendas-boiled-chocolate-cookies",
 		"title": "Brenda's Boiled Chocolate Cookies",
-		"type": "dessert",
+		"type": "desserts",
 		"about": "This is one of Aunt Brenda's old favorite recipes that she's been making for years. She said Kristy always loved these when she was a kid.",
 		"ingredients": [
 			"1/2 cup milk",
@@ -192,7 +192,7 @@
 	{
 		"slug": "rhubarb-custard-pie",
 		"title": "Rhubarb Custard Pie",
-		"type": "dessert",
+		"type": "desserts",
 		"about": "This recipe came from Uncle Jim and Aunt Brenda",
 		"ingredients": [
 			"3 eggs (slightly beaten)",
@@ -209,7 +209,7 @@
 	{
 		"slug": "sweet-potato-pie",
 		"title": "Sweet Potato Pie",
-		"type": "dessert",
+		"type": "desserts",
 		"about": "This is one of Jim and Brenda's favorite dessert recipes.",
 		"ingredients": [
 			"1 large can or yams or 3 medium cooked yams",
@@ -228,7 +228,7 @@
 	{
 		"slug": "amys-caramel-rice-krispies",
 		"title": "Amy's Caramel Rice Krispies",
-		"type": "dessert",
+		"type": "desserts",
 		"about": "From Amy: Although rice krispies have been around forever this recipe offers an unusual slant and it came from a RN that I worked with in home care.",
 		"ingredients": [
 			"4 c mini marshmallows",
@@ -245,7 +245,7 @@
 	{
 		"slug": "amys-chocolate-waffle-cookies",
 		"title": "Amy's Chocolate Waffle Cookies",
-		"type": "dessert",
+		"type": "desserts",
 		"about": "From Amy: Thought you might like this recipe since you now have a waffle iron.  Its easy to make and fun to do with the kids.",
 		"ingredients": [
 			"For Cookies:",
@@ -273,7 +273,7 @@
 	{
 		"slug": "sherrys-hot-chocolate",
 		"title": "Sherry's Hot Chocolate",
-		"type": "dessert",
+		"type": "desserts",
 		"about": "Amy sent this recipe that her Mom used to make every winter when she was a kid.",
 		"ingredients": [
 			"8 qts powder milk",
@@ -287,7 +287,7 @@
 	{
 		"slug": "pipkin-peanut-clusters",
 		"title": "Pipkin Peanut Clusters",
-		"type": "dessert",
+		"type": "desserts",
 		"about": "From Amy: These are a tradition for the holidays and can be make with any nut so Ava can enjoy too. This recipe is also easy to multiple and stores and freezes very well.",
 		"ingredients": [
 			"1 pd Almond bark",
@@ -300,7 +300,7 @@
 	{
 		"slug": "amys-waldorf-red-cake",
 		"title": "Amy's Waldorf Red Cake",
-		"type": "dessert",
+		"type": "desserts",
 		"about": "From Amy: This recipe has an interesting story on its origin and I used to request this cake for my birthdays.  You can find it in many different forms and box kits but the home made is the BEST.",
 		"ingredients": [
 			"Cake:",
@@ -328,7 +328,7 @@
 	{
 		"slug": "amys-brownies",
 		"title": "Amy's Brownies",
-		"type": "dessert",
+		"type": "desserts",
 		"about": "From Amy: Anyone who knows me, knows that I love all things chocolate.  This recipe came from an RN that I worked with and when she would bring this into work it was a special treat.  I usually ate more than my share but that was back in the day when I could eat anything and not have to worry about the weight.  My how times have changed, but this recipe is still good.",
 		"ingredients": [
 			"12 T cocoa",
@@ -351,7 +351,7 @@
 	{
 		"slug": "amys-special-k-bars",
 		"title": "Amy's Special K Bars",
-		"type": "dessert",
+		"type": "desserts",
 		"about": "From Amy: I love these bars and could eat them by the pan full.  They call for peanut butter but I would try substituting Almond Butter so Ava can enjoy them too.",
 		"ingredients": [
 			"1 c white corn syrup",
@@ -367,7 +367,7 @@
 	{
 		"slug": "neiman-marcus-cookies",
 		"title": "Neiman Marcus Cookies",
-		"type": "dessert",
+		"type": "desserts",
 		"about": "This is a recipe from Amy. Obviously the name implies where they came from. Amy said they used to make these every Christmas.",
 		"ingredients": [
 			"2 c butter",
@@ -390,7 +390,7 @@
 	{
 		"slug": "toms-monster-cookies",
 		"title": "Tom's Monster Cookies",
-		"type": "dessert",
+		"type": "desserts",
 		"about": "Tom has a real sweet tooth and these cookies have a little of everything in them so you can eat them by the dozens.  This recipe can also be easily multiplied to make larger batches or larger cookies.",
 		"ingredients": [
 			"4 eggs",

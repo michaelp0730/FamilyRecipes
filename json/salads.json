@@ -2,7 +2,7 @@
 	{
 		"slug": "michaels-fried-avocado-crab-salad",
 		"title": "Michael's Fried Avocado Crab Salad",
-		"type": "salad",
+		"type": "salads",
 		"about": "This is based on a salad we used to serve at Waterfront Seafood Grill when I worked there years ago. I modified it by frying the avocados and adding fresh mango. It's a great summer salad featuring fresh Dungeness crab, butter lettuce, and a scallion-yogurt dressing. I've been making it for years and its usually a hit. Hope you enjoy.",
 		"ingredients": [
 			"2 bunches of butter lettuce",
@@ -26,7 +26,7 @@
 	{
 		"slug": "jasons-seafood-salad",
 		"title": "Jason's Seafood Salad",
-		"type": "salad",
+		"type": "salads",
 		"about": "This is one of the dishes that Chef Jason Wilson, of the restaurant 'Crush' in Seattle, taught me to make on the TV show when I proposed to Jessica. It's a hot/cold salad featuring fresh seafood, fennel, cucumber, and mint.",
 		"ingredients": [
 			"10 Mussels, alive in shell",
@@ -46,7 +46,7 @@
 	{
 		"slug": "heirloom-tomato-vinaigrette",
 		"title": "Heirloom Tomato Vinaigrette",
-		"type": "salad",
+		"type": "salads",
 		"about": "This is a nice light salad dressing based on heirloom tomatoes. It's perfect for any type of house or mixed greens salad. ",
 		"ingredients": [
 			"10oz Heirloom tomatoes",
@@ -65,7 +65,7 @@
 	{
 		"slug": "mustard-dill-tortellini-salad-skewers",
 		"title": "Mustard-Dill Tortellini Salad Skewers",
-		"type": "salad",
+		"type": "salads",
 		"about": "This is a recipe Jessica made for her baby shower with Ava. It ended up being the most popular dish there so we had to save the recipe.",
 		"ingredients": [
 			"1 (9oz) pkg refrigerated cheese tortellini",
@@ -80,7 +80,7 @@
 	{
 		"slug": "edamame-black-bean-salad",
 		"title": "Edamame Black Bean Salad",
-		"type": "salad",
+		"type": "salads",
 		"about": "This recipe came from Jessica's cousin Heather. It's a healthy dish that's easy to make and sounds delicious!",
 		"ingredients": [
 			"1 bag (12 oz) frozen shelled edamame",
@@ -99,7 +99,7 @@
 	{
 		"slug": "el-gaucho-caesar-salad",
 		"title": "El Gaucho Caesar Salad",
-		"type": "salad",
+		"type": "salads",
 		"about": "Although this isn't technically a family recipe, El Gaucho has been a big part of both of our lives for a long time, and this recipe is one that we have each made countless times. It's a classic recipe that most people think is Italian, but its actually from Mexico. Caesar Gardini had a restaurant in Tijuana and he made this salad with 'everything he had' for one of his regular customers. The dish gained popularity, and due to the name Caesar, it became associated with Italian restaurants. At El Gaucho the Caesar is prepared tableside from scratch using premium fresh ingredients, and a coddled egg. It's prepared in a large wooden bowl with wooden tongs. Bowtie optional.",
 		"ingredients": [
 			"Fresh Romaine lettuce, washed & chopped",

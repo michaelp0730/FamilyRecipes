@@ -2,7 +2,7 @@
 	{
 		"slug": "cioppino",
 		"title": "Cioppino",
-		"type": "soup",
+		"type": "soups",
 		"about": "This seafood stew (pronounced 'Cho-Pee-No'), which normally features fresh shellfish, a tomato-based broth, and French bread, originated in San Francisco in the mid 20th century. My Dad Elmer considered this dish his specialty, and it was easily my favorite meal he made. Although this isn't his personal recipe, it's pretty close and definitely does the dish justice.",
 		"ingredients": [
 			"3 tablespoons of olive oil",
@@ -29,7 +29,7 @@
 	{
 		"slug": "jessicas-chicken-taco-chili",
 		"title": "Jessica's Chicken Taco Chili",
-		"type": "soup",
+		"type": "soups",
 		"about": "This was a recipe that Jessica originally got from her cousin Lauren. Its a great hearty dish that she has made several times and everyone always enjoys it. It's a crockpot dish so it takes a while to cook, but if you like chili and Mexican food, this one is a no-brainer!",
 		"ingredients": [
 			"1 white onion, chopped finely",
@@ -47,7 +47,7 @@
 	{
 		"slug": "chicken-enchilada-soup",
 		"title": "Chicken Enchilada Soup",
-		"type": "soup",
+		"type": "soups",
 		"about": "This is a great slow-cooking soup that was submitted by Uncle Jim and Aunt Brenda. Super easy to make and perfect for lazy Sundays.",
 		"ingredients": [
 			"1 lb. Skinless Boneless Chicken Breast 5 Tenderloins",
@@ -71,7 +71,7 @@
 	{
 		"slug": "loaded-potato-soup",
 		"title": "Loaded Potato Soup",
-		"type": "soup",
+		"type": "soups",
 		"about": "This is a recipe that Jessica found online. We made it once and thought it was great. Here's the description it came with: \"Such a simple and tasty soup that really fills you up! We loved the spin on regular potato soup... adding bacon, sour cream, cheese and chives to make it like the oh so yummy loaded baked potato! Served with cornbread, this was SUCH a yummy meal! We hope you guys enjoy this recipe as much as we did, especially with that crisp fall air we seem to be seeing more and more of!\"",
 		"ingredients": [
 			"6 large potatoes, peeled and cubed",
@@ -90,7 +90,7 @@
 	{
 		"slug": "ricks-lobster-corn-chowder",
 		"title": "Rick's Lobster Corn Chowder",
-		"type": "soup",
+		"type": "soups",
 		"about": "This is probably my favorite of Rick's dishes. I remember having it at his house in Iowa for Christmas, 2008. It's a delicious chowder that any seafood (or corn) fan will love. Highly recommended.",
 		"ingredients": [
 			"1/4 lb. slab bacon (rind removed)",
@@ -116,7 +116,7 @@
 	{
 		"slug": "michaels-meat-lovers-chili",
 		"title": "Michael's Meat Lovers Chili",
-		"type": "soup",
+		"type": "soups",
 		"about": "I call this one the Vegan Nightmare. Disclaimer** If you don't like tender, slow-cooked meats, then this isn't the dish for you. I first made this on a Football Sunday at home and was very pleased with it. I don't cook with recipes so everything I'm putting here is an approximation. Like Gigi always said, 'You cook with what you have.' Feel free to substitute meats, or any other ingredients. Hope you enjoy!",
 		"ingredients": [
 			"2 - 3 beef ribs",
@@ -152,7 +152,7 @@
 	{
 		"slug": "elmers-brisket-soup",
 		"title": "Elmer's Brisket Soup",
-		"type": "soup",
+		"type": "soups",
 		"about": "This is one of the dishes that I associate with my childhood. My Dad made this soup regularly, and although I wasn't very big on brisket as a child, I always loved the soup. From my Mom: 'Another dish that was one of Michael’s dads favorite was Italian soup. It can be made with any type of meat but we mostly used brisket of beef. About a pound of brisket, sliced to serving size pieces and browned in olive oil with minced garlic and onions.'",
 		"ingredients": [
 			"1 lb. brisket",
@@ -174,7 +174,7 @@
 	{
 		"slug": "jims-black-bean-turkey-chili",
 		"title": "Jim's Black Bean Turkey Chili",
-		"type": "soup",
+		"type": "soups",
 		"about": "This is one of Uncle Jim and Aunt Brenda's favorites. Considering my love for chili and turkey, I'm going to have to make this one very soon.",
 		"ingredients": [
 			"1.5 lbs ground turkey",
