@@ -140,5 +140,6 @@
             </ul>
         </section>
     </div>
+    <? include './includes/footer.php' ?>
 </body>
 </html>
