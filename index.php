@@ -30,118 +30,90 @@
             <span class="index-subheading">This is a collection of recipes from our family and friends. Lots of special stuff in here. Please enjoy and eat well!</span>
             <form id="recipes-search-form" class="recipes-search-form" action="" method="get">
                 <label for="recipes-search">Search recipes:</label>
-                <input type="text" id="recipes-search" class="recipes-search" name="recipes-search" placeholder="<?= $search_val ?>" />
+                <input type="text" id="recipes-search" class="recipes-search" name="recipes-search" value="<?= $search_val ?>" />
                 <button type="submit">Search</button>
             </form>
         </div>
 
-        <?
-            if ($search_val) {
-        ?>
+        <? if ($search_val) { ?>
             <h2>Search Results:</h2>
-        <?
-            }
-        ?>
+        <? } ?>
 
         <section id="section-breakfast" class="container group">
             <h2 class="breakfast heading-label label">Breakfast</h2>
             <ul class="link-list">
-                <?
-                    foreach ($breakfast_json as $key => $breakfast_value) {
-                ?>
+                <? foreach ($breakfast_json as $key => $breakfast_value) { ?>
                         <li>
                             <a href="./recipes/?slug=<?= $breakfast_value['slug'] ?>&type=<?= $breakfast_value['type'] ?>">
                                 <?= $breakfast_value['title'] ?>
                             </a>
                         </li>
-                <?
-                    }
-                ?>
+                <? } ?>
             </ul>
         </section>
 
         <section id="section-salads" class="container group">
             <h2 class="salads heading-label label">Salads</h2>
             <ul class="link-list">
-                <?
-                    foreach ($salads_json as $key => $salad_value) {
-                ?>
+                <? foreach ($salads_json as $key => $salad_value) { ?>
                     <li>
                         <a href="./recipes/?slug=<?= $salad_value['slug'] ?>&type=<?= $salad_value['type'] ?>">
                             <?= $salad_value['title'] ?>
                         </a>
                     </li>
-                <?
-                    }
-                ?>
+                <? } ?>
             </ul>
         </section>
 
         <section id="section-soups" class="container group">
             <h2 class="soups heading-label label">Soups</h2>
             <ul class="link-list">
-            <?
-                foreach ($soups_json as $key => $soup_value) {
-            ?>
+            <? foreach ($soups_json as $key => $soup_value) { ?>
                 <li>
                     <a href="./recipes/?slug=<?= $soup_value['slug'] ?>&type=<?= $soup_value['type'] ?>">
                         <?= $soup_value['title'] ?>
                     </a>
                 </li>
-            <?
-                }
-            ?>
+            <? } ?>
             </ul>
         </section>
 
         <section id="section-entrees" class="container group">
             <h2 class="entrees heading-label label">Entrees</h2>
             <ul class="link-list">
-                <?
-                    foreach ($entrees_json as $key => $entree_value) {
-                ?>
+                <? foreach ($entrees_json as $key => $entree_value) { ?>
                     <li>
                         <a href="./recipes/?slug=<?= $entree_value['slug'] ?>&type=<?= $entree_value['type'] ?>">
                             <?= $entree_value['title'] ?>
                         </a>
                     </li>
-                <?
-                    }
-                ?>
+                <? } ?>
             </ul>
         </section>
 
         <section id="section-sides" class="container group">
             <h2 class="sides heading-label label">Sides</h2>
             <ul class="link-list">
-                <?
-                    foreach ($sides_json as $key => $side_value) {
-                ?>
+                <? foreach ($sides_json as $key => $side_value) { ?>
                     <li>
                         <a href="./recipes/?slug=<?= $side_value['slug'] ?>&type=<?= $side_value['type'] ?>">
                             <?= $side_value['title'] ?>
                         </a>
                     </li>
-                <?
-                    }
-                ?>
+                <? } ?>
             </ul>
         </section>
 
         <section id="section-desserts" class="container group">
             <h2 class="desserts heading-label label">Desserts</h2>
             <ul class="link-list">
-                <?
-                    foreach ($desserts_json as $key => $dessert_value) {
-                ?>
+                <? foreach ($desserts_json as $key => $dessert_value) { ?>
                     <li>
                         <a href="./recipes/?slug=<?= $dessert_value['slug'] ?>&type=<?= $dessert_value['type'] ?>">
                             <?= $dessert_value['title'] ?>
                         </a>
                     </li>
-                <?
-                    }
-                ?>
+                <? } ?>
             </ul>
         </section>
     </div>

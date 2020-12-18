@@ -37,13 +37,9 @@
 
         <h3>Ingredients</h3>
         <ul class="ingredients">
-            <?
-                foreach ($recipe['ingredients'] as $ing_key => $ing_val) {
-            ?>
+            <? foreach ($recipe['ingredients'] as $ing_key => $ing_val) { ?>
                 <li><?= $ing_val ?> </li>
-            <?
-                }
-            ?>
+            <? } ?>
         </ul>
 
         <h3 class="instructions-heading">Instructions</h3>
@@ -57,9 +53,7 @@
                     <br />
                     <?= $step_val ?>
                 </p>
-            <?
-                }
-            ?>
+            <? } ?>
         </div>
     </div>
     <? include '../includes/footer.php' ?>
