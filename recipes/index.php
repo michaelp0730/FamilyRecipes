@@ -9,18 +9,11 @@
             $recipe = $value;
         }
     }
+    $recipe_title = $recipe['title'];
+    $page_title = $recipe_title . ' | PellegriniPage Recipes';
+    $css_path = '../app.css';
+    include '../includes/head.php';
 ?>
-<!DOCTYPE HTML>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Pellegrini Page | Family Recipes</title>
-    <link rel="stylesheet" href="../app.css" />
-    <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif] -->
-</head>
 
 <body>
     <div class="wrapper recipe-details">
@@ -30,7 +23,7 @@
             </a>
         </p>
 
-        <h1><?= $recipe['title'] ?></h1>
+        <h1><?= $recipe_title ?></h1>
 
         <p>
             <span class="label <?= $recipe['type'] ?>"><?= $recipe['type'] ?></span>

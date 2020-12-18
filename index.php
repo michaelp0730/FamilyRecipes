@@ -12,19 +12,11 @@
     $entrees_json = json_decode($entrees_file, true);
     $sides_json = json_decode($sides_file, true);
     $desserts_json = json_decode($desserts_file, true);
-?>
 
-<!DOCTYPE HTML>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Pellegrini Page | Family Recipes</title>
-    <link rel="stylesheet" href="./app.css" />
-    <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif] -->
-</head>
+    $page_title = 'Pellegrini Page | Family Recipes';
+    $css_path = './app.css';
+    include './includes/head.php';
+?>
 
 <body>
     <div class="wrapper">
