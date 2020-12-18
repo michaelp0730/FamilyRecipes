@@ -94,12 +94,12 @@
             <h2 class="sides heading-label label">Sides</h2>
             <ul class="link-list">
                 <?php
-                    $sidesFile = file_get_contents("./recipes/sides.json");
-                    $sidesJson = json_decode($sidesFile,true);
-                    foreach ($sidesJson as $key => $sideValue) {
+                    $sides_file = file_get_contents("./recipes/sides.json");
+                    $sides_json = json_decode($sides_file,true);
+                    foreach ($sides_json as $key => $side_value) {
                 ?>
                     <li>
-                        <a href="/breakfast/<?php echo $sideValue['slug'] ?>"><?php echo $sideValue['title'] ?></a>
+                        <a href="/breakfast/<?php echo $side_value['slug'] ?>"><?php echo $side_value['title'] ?></a>
                     </li>
                 <?php
                     }
@@ -111,12 +111,12 @@
             <h2 class="desserts heading-label label">Desserts</h2>
             <ul class="link-list">
                 <?php
-                    $dessertsFile = file_get_contents("./recipes/desserts.json");
-                    $dessertsJson = json_decode($dessertsFile,true);
-                    foreach ($dessertsJson as $key => $dessertValue) {
+                    $desserts_file = file_get_contents("./recipes/desserts.json");
+                    $desserts_json = json_decode($desserts_file,true);
+                    foreach ($desserts_json as $key => $dessert_value) {
                 ?>
                     <li>
-                        <a href="/breakfast/<?php echo $dessertValue['slug'] ?>"><?php echo $dessertValue['title'] ?></a>
+                        <a href="/breakfast/<?php echo $dessert_value['slug'] ?>"><?php echo $dessert_value['title'] ?></a>
                     </li>
                 <?php
                     }
