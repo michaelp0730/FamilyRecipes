@@ -26,12 +26,12 @@
             <h2 class="breakfast heading-label label">Breakfast</h2>
             <ul class="link-list">
                 <?php
-                    $breakfastFile = file_get_contents("./recipes/breakfast.json");
-                    $breakfastJson = json_decode($breakfastFile,true);
-                    foreach ($breakfastJson as $key => $breakfastValue) {
+                    $breakfast_file = file_get_contents("./recipes/breakfast.json");
+                    $breakfast_json = json_decode($breakfast_file,true);
+                    foreach ($breakfast_json as $key => $breakfast_value) {
                 ?>
                     <li>
-                        <a href="/breakfast/<?php echo $breakfastValue['slug'] ?>"><?php echo $breakfastValue['title'] ?></a>
+                        <a href="/breakfast/<?php echo $breakfast_value['slug'] ?>"><?php echo $breakfast_value['title'] ?></a>
                     </li>
                 <?php
                     }
@@ -43,12 +43,12 @@
             <h2 class="salads heading-label label">Salads</h2>
             <ul class="link-list">
                 <?php
-                    $saladsFile = file_get_contents("./recipes/salads.json");
-                    $saladsJson = json_decode($saladsFile,true);
-                    foreach ($saladsJson as $key => $saladValue) {
+                    $salads_file = file_get_contents("./recipes/salads.json");
+                    $salads_json = json_decode($salads_file,true);
+                    foreach ($salads_json as $key => $salads_value) {
                 ?>
                     <li>
-                        <a href="/breakfast/<?php echo $saladValue['slug'] ?>"><?php echo $saladValue['title'] ?></a>
+                        <a href="/breakfast/<?php echo $salads_value['slug'] ?>"><?php echo $salads_value['title'] ?></a>
                     </li>
                 <?php
                     }
@@ -60,12 +60,12 @@
             <h2 class="soups heading-label label">Soups</h2>
             <ul class="link-list">
             <?php
-                $soupsFile = file_get_contents("./recipes/soups.json");
-                $soupsJson = json_decode($soupsFile,true);
-                foreach ($soupsJson as $key => $soupValue) {
+                $soups_file = file_get_contents("./recipes/soups.json");
+                $soups_json = json_decode($soups_file,true);
+                foreach ($soups_json as $key => $soup_value) {
             ?>
                 <li>
-                    <a href="/soups/<?php echo $soupValue['slug'] ?>"><?php echo $soupValue['title'] ?></a>
+                    <a href="/soups/<?php echo $soup_value['slug'] ?>"><?php echo $soup_value['title'] ?></a>
                 </li>
             <?php
                 }
@@ -77,12 +77,12 @@
             <h2 class="entrees heading-label label">Entrees</h2>
             <ul class="link-list">
                 <?php
-                    $entreesFile = file_get_contents("./recipes/entrees.json");
-                    $entreesJson = json_decode($entreesFile,true);
-                    foreach ($entreesJson as $key => $entreeValue) {
+                    $entrees_file = file_get_contents("./recipes/entrees.json");
+                    $entrees_json = json_decode($entrees_file,true);
+                    foreach ($entrees_json as $key => $entree_value) {
                 ?>
                     <li>
-                        <a href="/breakfast/<?php echo $entreeValue['slug'] ?>"><?php echo $entreeValue['title'] ?></a>
+                        <a href="/breakfast/<?php echo $entree_value['slug'] ?>"><?php echo $entree_value['title'] ?></a>
                     </li>
                 <?php
                     }
